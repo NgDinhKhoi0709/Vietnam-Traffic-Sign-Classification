@@ -382,54 +382,6 @@ def extract_histogram_from_dataset(data_dir, target_size=(128, 128), use_cache=F
     return features_list, labels_list, class_names
 
 
-def compare_histograms(hist1, hist2, method='correlation'):
-    """
-    So sánh hai histogram sử dụng các phương pháp khác nhau
-    
-    Tham số:
-    ----------
-    hist1, hist2 : numpy.ndarray
-        Hai histogram cần so sánh (phải có cùng kích thước)
-    method : str, mặc định='correlation'
-        Phương pháp so sánh:
-        - 'correlation': Tương quan (1 = giống nhau, -1 = đối lập)
-        - 'chi_square': Chi-Square (0 = giống nhau, lớn = khác nhau)
-        - 'intersection': Giao (1 = giống nhau, 0 = hoàn toàn khác)
-        - 'bhattacharyya': Bhattacharyya distance (0 = giống, 1 = khác)
-    
-    Trả về:
-    ----------
-    similarity : float
-        Giá trị tương đồng/khác biệt tùy theo phương pháp
-    
-    Ví dụ:
-    ----------
-    >>> img1 = cv2.imread('vn-signs/train/Cam/Cam_1.jpg')
-    >>> img2 = cv2.imread('vn-signs/train/Cam/Cam_2.jpg')
-    >>> 
-    >>> hist1 = extract_histogram_features(img1, color_space='HSV')
-    >>> hist2 = extract_histogram_features(img2, color_space='HSV')
-    >>> 
-    >>> corr = compare_histograms(hist1, hist2, 'correlation')
-    >>> print(f"Correlation: {corr:.4f}")  # Gần 1 = giống nhau
-    """
-    # Chuyển về kiểu float32 và reshape cho OpenCV
-    h1 = hist1.astype(np.float32).reshape(-1, 1)
-    h2 = hist2.astype(np.float32).reshape(-1, 1)
-    
-    # So sánh theo phương pháp
-    if method == 'correlation':
-        return cv2.compareHist(h1, h2, cv2.HISTCMP_CORREL)
-    elif method == 'chi_square':
-        return cv2.compareHist(h1, h2, cv2.HISTCMP_CHISQR)
-    elif method == 'intersection':
-        return cv2.compareHist(h1, h2, cv2.HISTCMP_INTERSECT)
-    elif method == 'bhattacharyya':
-        return cv2.compareHist(h1, h2, cv2.HISTCMP_BHATTACHARYYA)
-    else:
-        raise ValueError(f"Phương pháp không hợp lệ: {method}")
-
-
 if __name__ == "__main__":
     # Thiết lập argument parser
     parser = argparse.ArgumentParser(
