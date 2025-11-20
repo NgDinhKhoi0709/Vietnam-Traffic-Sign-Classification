@@ -1,0 +1,6 @@
+- Traffic Signs Detection: https://www.kaggle.com/datasets/raduoprea/traffic-signs
+- Traffic Road Object Detection Dataset using YOLO: https://www.kaggle.com/datasets/boukraailyesali/traffic-road-object-detection-dataset-using-yolo
+- Crowding Counting Dataset: https://www.kaggle.com/datasets/unidatapro/crowd-counting
+- Road Sign Recognition: https://www.kaggle.com/datasets/fhabibimoghaddam/road-sign-recognition
+- Safety helmet: https://www.kaggle.com/datasets/maryamborzoo/safety-helmet-and-vest
+- car brand: https://www.kaggle.com/datasets/hadyfarrag/car-brand-recognition
