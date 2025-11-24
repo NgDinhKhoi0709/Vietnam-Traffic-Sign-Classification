@@ -1,0 +1,148 @@
+================================================================================
+MISCLASSIFIED IMAGES REPORT
+================================================================================
+
+Date: 2025-11-24 14:45:34
+Total test images: 153
+Misclassified: 11
+Correctly classified: 142
+Error rate: 7.19%
+
+================================================================================
+DETAILED MISCLASSIFICATIONS
+================================================================================
+
+1. Image #57
+   True Label:      Chidan
+   Predicted Label: Hieulenh
+   Confidence:      70.23%
+   
+   Top 3 Predictions:
+      1. Hieulenh: 70.23%
+      2. Chidan: 21.04%
+      3. Phu: 8.54%
+
+2. Image #63
+   True Label:      Chidan
+   Predicted Label: Nguyhiem
+   Confidence:      57.02%
+   
+   Top 3 Predictions:
+      1. Nguyhiem: 57.02%
+      2. Hieulenh: 33.83%
+      3. Phu: 6.88%
+
+3. Image #80
+   True Label:      Hieulenh
+   Predicted Label: Phu
+   Confidence:      41.52%
+   
+   Top 3 Predictions:
+      1. Phu: 41.52%
+      2. Cam: 25.33%
+      3. Hieulenh: 21.54%
+
+4. Image #81
+   True Label:      Hieulenh
+   Predicted Label: Cam
+   Confidence:      99.32%
+   
+   Top 3 Predictions:
+      1. Cam: 99.32%
+      2. Hieulenh: 0.68%
+      3. Nguyhiem: 0.00%
+
+5. Image #85
+   True Label:      Hieulenh
+   Predicted Label: Cam
+   Confidence:      98.61%
+   
+   Top 3 Predictions:
+      1. Cam: 98.61%
+      2. Hieulenh: 1.39%
+      3. Nguyhiem: 0.00%
+
+6. Image #94
+   True Label:      Hieulenh
+   Predicted Label: Cam
+   Confidence:      37.82%
+   
+   Top 3 Predictions:
+      1. Cam: 37.82%
+      2. Hieulenh: 25.59%
+      3. Chidan: 18.97%
+
+7. Image #100
+   True Label:      Hieulenh
+   Predicted Label: Cam
+   Confidence:      92.25%
+   
+   Top 3 Predictions:
+      1. Cam: 92.25%
+      2. Hieulenh: 7.75%
+      3. Nguyhiem: 0.00%
+
+8. Image #131
+   True Label:      Phu
+   Predicted Label: Cam
+   Confidence:      55.40%
+   
+   Top 3 Predictions:
+      1. Cam: 55.40%
+      2. Hieulenh: 24.43%
+      3. Phu: 18.96%
+
+9. Image #138
+   True Label:      Phu
+   Predicted Label: Nguyhiem
+   Confidence:      31.97%
+   
+   Top 3 Predictions:
+      1. Nguyhiem: 31.97%
+      2. Cam: 28.15%
+      3. Phu: 24.80%
+
+10. Image #143
+   True Label:      Phu
+   Predicted Label: Chidan
+   Confidence:      87.93%
+   
+   Top 3 Predictions:
+      1. Chidan: 87.93%
+      2. Nguyhiem: 11.05%
+      3. Hieulenh: 0.52%
+
+11. Image #147
+   True Label:      Phu
+   Predicted Label: Chidan
+   Confidence:      100.00%
+   
+   Top 3 Predictions:
+      1. Chidan: 100.00%
+      2. Hieulenh: 0.00%
+      3. Phu: 0.00%
+
+
+================================================================================
+ERROR STATISTICS BY CLASS
+================================================================================
+
+
+Chidan:
+  Total: 36, Misclassified: 2 (5.6%)
+  Confused with:
+    - Hieulenh: 1 times
+    - Nguyhiem: 1 times
+
+Hieulenh:
+  Total: 32, Misclassified: 5 (15.6%)
+  Confused with:
+    - Cam: 4 times
+    - Phu: 1 times
+
+Phu:
+  Total: 23, Misclassified: 4 (17.4%)
+  Confused with:
+    - Cam: 1 times
+    - Chidan: 2 times
+    - Nguyhiem: 1 times
