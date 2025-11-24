@@ -1,0 +1,30 @@
+CLASSIFICATION REPORT
+================================================================================
+
+SVM Parameters:
+  kernel: rbf
+  C:      1
+  gamma:  scale
+
+CCV Parameters:
+  target_size:  (128, 128)
+  n_bins:       4
+  threshold:    150
+  color_space:  BGR
+
+Results:
+  Train Accuracy: 88.47%
+  Test Accuracy:  69.28%
+  Training Time:  0.11s
+
+              precision    recall  f1-score   support
+
+         Cam     0.6522    0.9091    0.7595        33
+      Chidan     0.6857    0.6667    0.6761        36
+    Hieulenh     0.5667    0.5312    0.5484        32
+    Nguyhiem     0.8750    0.7241    0.7925        29
+         Phu     0.7778    0.6087    0.6829        23
+
+    accuracy                         0.6928       153
+   macro avg     0.7115    0.6880    0.6919       153
+weighted avg     0.7033    0.6928    0.6904       153

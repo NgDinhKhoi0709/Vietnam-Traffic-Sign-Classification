@@ -33,7 +33,7 @@ def grid_search_histogram():
     print("GRID SEARCH - HISTOGRAM FEATURES")
     print("=" * 80)
     
-    # Định nghĩa grid tham số
+    # Định nghĩa grid tham số cho Feature Extraction
     param_grid = {
         'target_size': [(64, 64), (128, 128), (256, 256)],
         'color_space': ['BGR', 'RGB', 'HSV', 'Lab'],
@@ -45,19 +45,29 @@ def grid_search_histogram():
         ],
     }
     
-    # SVM parameters
-    svm_params = {
-        'kernel': 'rbf',
-        'C': 10.0,
-        'gamma': 'scale'
+    # Định nghĩa grid tham số cho SVM
+    svm_param_grid = {
+        'kernel': ['rbf', 'linear'],
+        'C': [0.1, 1, 10],
+        'gamma': ['scale']  # chỉ dùng với kernel='rbf'
     }
     
-    print("\n📋 Grid tham số:")
+    print("\n📋 Grid tham số Feature Extraction:")
     for param, values in param_grid.items():
         print(f"   - {param}: {values}")
     
-    print(f"\n🔧 SVM parameters: {svm_params}")
-    print(f"\n📊 Tổng số combinations: {np.prod([len(v) for v in param_grid.values()])}")
+    print(f"\n📋 Grid tham số SVM:")
+    for param, values in svm_param_grid.items():
+        print(f"   - {param}: {values}")
+    
+    # Tính tổng số combinations
+    feature_combinations = np.prod([len(v) for v in param_grid.values()])
+    svm_combinations = len(svm_param_grid['kernel']) * len(svm_param_grid['C']) * len(svm_param_grid['gamma'])
+    total_combinations = feature_combinations * svm_combinations
+    
+    print(f"\n📊 Feature combinations: {feature_combinations}")
+    print(f"📊 SVM combinations: {svm_combinations}")
+    print(f"📊 Tổng số combinations: {total_combinations}")
     
     # Tạo thư mục lưu kết quả
     results_dir = 'grid_search_results'
@@ -69,29 +79,27 @@ def grid_search_histogram():
     best_params = None
     
     # Đếm combination
-    total_combinations = np.prod([len(v) for v in param_grid.values()])
     current_combination = 0
     
     print("\n" + "=" * 80)
     print("BẮT ĐẦU GRID SEARCH")
     print("=" * 80)
     
-    # Grid search
+    # Grid search - Nested loop cho Feature params và SVM params
     for target_size, color_space, bins in product(
         param_grid['target_size'],
         param_grid['color_space'],
         param_grid['bins']
     ):
-        current_combination += 1
-        
-        print(f"\n[{current_combination}/{total_combinations}] Đang thử:")
-        print(f"   target_size={target_size}, color_space={color_space}, bins={bins}")
+        print(f"\n{'='*80}")
+        print(f"Feature params: target_size={target_size}, color_space={color_space}, bins={bins}")
+        print(f"{'='*80}")
         
         try:
-            start_time = time.time()
-            
-            # 1. Trích xuất features từ train set
+            # 1. Trích xuất features từ train set (chỉ 1 lần cho mỗi feature params)
             print("   → Trích xuất features từ train set...")
+            feature_start_time = time.time()
+            
             X_train_full, y_train_full, class_names = extract_histogram_from_dataset(
                 'vn-signs/train',
                 target_size=target_size,
@@ -121,51 +129,79 @@ def grid_search_histogram():
             )
             
             print(f"   → Train: {X_train.shape[0]} samples, Validation: {X_val.shape[0]} samples")
+            print(f"   → Feature extraction time: {time.time() - feature_start_time:.2f}s")
             
-            # 3. Chuẩn hóa
+            # 3. Chuẩn hóa (chỉ 1 lần)
             scaler = StandardScaler()
             X_train_scaled = scaler.fit_transform(X_train)
             X_val_scaled = scaler.transform(X_val)
             
-            # 4. Train SVM
-            print("   → Training SVM...")
-            svm = SVC(**svm_params, random_state=42)
-            svm.fit(X_train_scaled, y_train)
-            
-            # 5. Đánh giá trên validation
-            y_val_pred = svm.predict(X_val_scaled)
-            val_accuracy = accuracy_score(y_val, y_val_pred)
-            
-            # Đánh giá trên train
-            y_train_pred = svm.predict(X_train_scaled)
-            train_accuracy = accuracy_score(y_train, y_train_pred)
-            
-            elapsed_time = time.time() - start_time
-            
-            print(f"   ✓ Train Accuracy: {train_accuracy*100:.2f}%")
-            print(f"   ✓ Val Accuracy:   {val_accuracy*100:.2f}%")
-            print(f"   ✓ Time: {elapsed_time:.2f}s")
-            
-            # Lưu kết quả
-            result = {
-                'target_size': target_size,
-                'color_space': color_space,
-                'bins': bins,
-                'train_accuracy': train_accuracy,
-                'val_accuracy': val_accuracy,
-                'time': elapsed_time,
-                'feature_dim': X_train.shape[1]
-            }
-            results.append(result)
-            
-            # Cập nhật best
-            if val_accuracy > best_accuracy:
-                best_accuracy = val_accuracy
-                best_params = result.copy()
-                print(f"   🏆 NEW BEST! Val Accuracy: {best_accuracy*100:.2f}%")
+            # 4. Thử tất cả các SVM params
+            for kernel, C, gamma in product(
+                svm_param_grid['kernel'],
+                svm_param_grid['C'],
+                svm_param_grid['gamma']
+            ):
+                current_combination += 1
+                
+                # Gamma chỉ áp dụng cho RBF kernel
+                if kernel == 'linear' and gamma not in ['scale', 'auto']:
+                    continue
+                
+                print(f"\n   [{current_combination}/{total_combinations}] SVM: kernel={kernel}, C={C}, gamma={gamma}")
+                
+                try:
+                    svm_start_time = time.time()
+                    
+                    # Train SVM
+                    if kernel == 'linear':
+                        svm = SVC(kernel=kernel, C=C, random_state=42)
+                    else:  # rbf
+                        svm = SVC(kernel=kernel, C=C, gamma=gamma, random_state=42)
+                    
+                    svm.fit(X_train_scaled, y_train)
+                    
+                    # Đánh giá trên validation
+                    y_val_pred = svm.predict(X_val_scaled)
+                    val_accuracy = accuracy_score(y_val, y_val_pred)
+                    
+                    # Đánh giá trên train
+                    y_train_pred = svm.predict(X_train_scaled)
+                    train_accuracy = accuracy_score(y_train, y_train_pred)
+                    
+                    svm_time = time.time() - svm_start_time
+                    
+                    print(f"      ✓ Train Accuracy: {train_accuracy*100:.2f}%")
+                    print(f"      ✓ Val Accuracy:   {val_accuracy*100:.2f}%")
+                    print(f"      ✓ SVM Time: {svm_time:.2f}s")
+                    
+                    # Lưu kết quả
+                    result = {
+                        'target_size': target_size,
+                        'color_space': color_space,
+                        'bins': bins,
+                        'kernel': kernel,
+                        'C': C,
+                        'gamma': gamma if kernel == 'rbf' else None,
+                        'train_accuracy': train_accuracy,
+                        'val_accuracy': val_accuracy,
+                        'time': svm_time,
+                        'feature_dim': X_train.shape[1]
+                    }
+                    results.append(result)
+                    
+                    # Cập nhật best
+                    if val_accuracy > best_accuracy:
+                        best_accuracy = val_accuracy
+                        best_params = result.copy()
+                        print(f"      🏆 NEW BEST! Val Accuracy: {best_accuracy*100:.2f}%")
+                
+                except Exception as e:
+                    print(f"      ❌ Lỗi SVM: {e}")
+                    continue
             
         except Exception as e:
-            print(f"   ❌ Lỗi: {e}")
+            print(f"   ❌ Lỗi feature extraction: {e}")
             import traceback
             traceback.print_exc()
             continue
@@ -179,12 +215,13 @@ def grid_search_histogram():
         # Sắp xếp theo validation accuracy
         results_sorted = sorted(results, key=lambda x: x['val_accuracy'], reverse=True)
         
-        print(f"\n🏆 TOP 5 BEST CONFIGURATIONS:")
+        print(f"\n🏆 TOP 10 BEST CONFIGURATIONS:")
         print("-" * 80)
-        for i, result in enumerate(results_sorted[:5], 1):
+        for i, result in enumerate(results_sorted[:10], 1):
             print(f"\n{i}. Val Accuracy: {result['val_accuracy']*100:.2f}% | "
                   f"Train Accuracy: {result['train_accuracy']*100:.2f}%")
-            print(f"   target_size={result['target_size']}, color_space={result['color_space']}, bins={result['bins']}")
+            print(f"   Feature: target_size={result['target_size']}, color_space={result['color_space']}, bins={result['bins']}")
+            print(f"   SVM: kernel={result['kernel']}, C={result['C']}, gamma={result['gamma']}")
             print(f"   Feature dim: {result['feature_dim']}, Time: {result['time']:.2f}s")
         
         # Lưu kết quả vào file
@@ -196,7 +233,7 @@ def grid_search_histogram():
                 'results': results,
                 'best_params': best_params,
                 'param_grid': param_grid,
-                'svm_params': svm_params
+                'svm_param_grid': svm_param_grid
             }, f)
         
         print(f"\n💾 Đã lưu kết quả vào: {result_file}")
@@ -213,11 +250,17 @@ def grid_search_histogram():
             f.write("-" * 80 + "\n")
             f.write(f"Validation Accuracy: {best_params['val_accuracy']*100:.2f}%\n")
             f.write(f"Train Accuracy: {best_params['train_accuracy']*100:.2f}%\n")
-            f.write(f"target_size: {best_params['target_size']}\n")
-            f.write(f"color_space: {best_params['color_space']}\n")
-            f.write(f"bins: {best_params['bins']}\n")
-            f.write(f"Feature dimension: {best_params['feature_dim']}\n")
-            f.write(f"Time: {best_params['time']:.2f}s\n\n")
+            f.write(f"\nFeature Extraction Parameters:\n")
+            f.write(f"  target_size: {best_params['target_size']}\n")
+            f.write(f"  color_space: {best_params['color_space']}\n")
+            f.write(f"  bins: {best_params['bins']}\n")
+            f.write(f"\nSVM Parameters:\n")
+            f.write(f"  kernel: {best_params['kernel']}\n")
+            f.write(f"  C: {best_params['C']}\n")
+            f.write(f"  gamma: {best_params['gamma']}\n")
+            f.write(f"\nOther Info:\n")
+            f.write(f"  Feature dimension: {best_params['feature_dim']}\n")
+            f.write(f"  Time: {best_params['time']:.2f}s\n\n")
             
             f.write("\nALL RESULTS (sorted by validation accuracy):\n")
             f.write("-" * 80 + "\n")

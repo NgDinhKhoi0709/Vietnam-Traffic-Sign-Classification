@@ -1,0 +1,30 @@
+================================================================================
+TỔNG HỢP KẾT QUẢ
+================================================================================
+
+SVM Parameters:
+  kernel: rbf
+  C:      1
+  gamma:  scale
+
+Histogram Parameters:
+  target_size: (64, 64)
+  color_space: Lab
+  bins:        (8, 8, 8)
+
+Dataset:
+  Train samples: 1344
+  Test samples:  153
+  Features:      512
+  Classes:       5
+
+Results:
+  Train Accuracy: 83.93%
+  Test Accuracy:  65.36%
+  Training Time:  0.12s
+
+Misclassified:
+  Total test:     153
+  Correct:        100
+  Wrong:          53
+  Error rate:     34.64%

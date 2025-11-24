@@ -1,0 +1,31 @@
+================================================================================
+TỔNG HỢP KẾT QUẢ
+================================================================================
+
+SVM Parameters:
+  kernel: rbf
+  C:      1
+  gamma:  scale
+
+HOG Parameters:
+  target_size:      (128, 128)
+  orientations:     12
+  pixels_per_cell:  (16, 16)
+  cells_per_block:  (2, 2)
+
+Dataset:
+  Train samples: 1344
+  Test samples:  153
+  Features:      2352
+  Classes:       5
+
+Results:
+  Train Accuracy: 99.18%
+  Test Accuracy:  80.39%
+  Training Time:  0.73s
+
+Misclassified:
+  Total test:     153
+  Correct:        123
+  Wrong:          30
+  Error rate:     19.61%

@@ -1,0 +1,31 @@
+================================================================================
+TỔNG HỢP KẾT QUẢ
+================================================================================
+
+SVM Parameters:
+  kernel: linear
+  C:      0.1
+  gamma:  None
+
+CCV Parameters:
+  target_size:  (256, 256)
+  n_bins:       16
+  threshold:    100
+  color_space:  BGR
+
+Dataset:
+  Train samples: 1344
+  Test samples:  153
+  Features:      8192
+  Classes:       5
+
+Results:
+  Train Accuracy: 100.00%
+  Test Accuracy:  60.78%
+  Training Time:  7.75s
+
+Misclassified:
+  Total test:     153
+  Correct:        93
+  Wrong:          60
+  Error rate:     39.22%

@@ -1,0 +1,30 @@
+CLASSIFICATION REPORT
+================================================================================
+
+SVM Parameters:
+  kernel: linear
+  C:      1
+  gamma:  None
+
+HOG Parameters:
+  target_size:      (64, 64)
+  orientations:     12
+  pixels_per_cell:  (4, 4)
+  cells_per_block:  (2, 2)
+
+Results:
+  Train Accuracy: 100.00%
+  Test Accuracy:  75.82%
+  Training Time:  446.56s
+
+              precision    recall  f1-score   support
+
+         Cam     0.8049    1.0000    0.8919        33
+      Chidan     0.7097    0.6111    0.6567        36
+    Hieulenh     0.6333    0.5938    0.6129        32
+    Nguyhiem     1.0000    0.9655    0.9825        29
+         Phu     0.6087    0.6087    0.6087        23
+
+    accuracy                         0.7582       153
+   macro avg     0.7513    0.7558    0.7505       153
+weighted avg     0.7541    0.7582    0.7528       153
