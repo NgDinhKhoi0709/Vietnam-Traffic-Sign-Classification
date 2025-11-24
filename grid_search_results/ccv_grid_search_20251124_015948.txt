@@ -1,0 +1,1757 @@
+GRID SEARCH RESULTS - CCV FEATURES
+================================================================================
+
+Date: 2025-11-24 01:59:48
+Total combinations tested: 576
+
+BEST CONFIGURATION:
+--------------------------------------------------------------------------------
+Validation Accuracy: 81.78%
+Train Accuracy: 97.21%
+
+Feature Extraction Parameters:
+  target_size: (64, 64)
+  n_bins: 4
+  threshold: 200
+  color_space: BGR
+
+SVM Parameters:
+  kernel: rbf
+  C: 10
+  gamma: scale
+
+Other Info:
+  Feature dimension: 128
+  Time: 0.20s
+
+
+ALL RESULTS (sorted by validation accuracy):
+--------------------------------------------------------------------------------
+
+1. Val Acc: 81.78% | Train Acc: 97.21%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9720930232558139, 'val_accuracy': 0.8178438661710037, 'time': 0.19913411140441895, 'feature_dim': 128}
+
+2. Val Acc: 81.78% | Train Acc: 88.37%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8837209302325582, 'val_accuracy': 0.8178438661710037, 'time': 0.20657896995544434, 'feature_dim': 128}
+
+3. Val Acc: 81.78% | Train Acc: 97.40%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9739534883720931, 'val_accuracy': 0.8178438661710037, 'time': 0.21183133125305176, 'feature_dim': 128}
+
+4. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 12.393023014068604, 'feature_dim': 8192}
+
+5. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 12.775814294815063, 'feature_dim': 8192}
+
+6. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 12.545801877975464, 'feature_dim': 8192}
+
+7. Val Acc: 81.41% | Train Acc: 88.09%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8809302325581395, 'val_accuracy': 0.8141263940520446, 'time': 0.2099456787109375, 'feature_dim': 128}
+
+8. Val Acc: 81.41% | Train Acc: 97.67%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9767441860465116, 'val_accuracy': 0.8141263940520446, 'time': 0.20126986503601074, 'feature_dim': 128}
+
+9. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 4.157400846481323, 'feature_dim': 3456}
+
+10. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 3.8878462314605713, 'feature_dim': 3456}
+
+11. Val Acc: 80.67% | Train Acc: 97.77%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9776744186046512, 'val_accuracy': 0.8066914498141264, 'time': 0.19296884536743164, 'feature_dim': 128}
+
+12. Val Acc: 80.67% | Train Acc: 88.56%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8855813953488372, 'val_accuracy': 0.8066914498141264, 'time': 0.2145705223083496, 'feature_dim': 128}
+
+13. Val Acc: 80.67% | Train Acc: 87.07%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8706976744186047, 'val_accuracy': 0.8066914498141264, 'time': 0.09341239929199219, 'feature_dim': 128}
+
+14. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 12.72079873085022, 'feature_dim': 8192}
+
+15. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 12.470346689224243, 'feature_dim': 8192}
+
+16. Val Acc: 80.30% | Train Acc: 97.67%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9767441860465116, 'val_accuracy': 0.8029739776951673, 'time': 0.19915771484375, 'feature_dim': 128}
+
+17. Val Acc: 80.30% | Train Acc: 97.86%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9786046511627907, 'val_accuracy': 0.8029739776951673, 'time': 0.2080073356628418, 'feature_dim': 128}
+
+18. Val Acc: 80.30% | Train Acc: 98.60%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.986046511627907, 'val_accuracy': 0.8029739776951673, 'time': 0.5606710910797119, 'feature_dim': 1024}
+
+19. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 12.838603734970093, 'feature_dim': 8192}
+
+20. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 12.751891136169434, 'feature_dim': 8192}
+
+21. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 13.697948217391968, 'feature_dim': 8192}
+
+22. Val Acc: 80.30% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.8029739776951673, 'time': 12.827700138092041, 'feature_dim': 8192}
+
+23. Val Acc: 80.30% | Train Acc: 96.93%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9693023255813954, 'val_accuracy': 0.8029739776951673, 'time': 0.199509859085083, 'feature_dim': 128}
+
+24. Val Acc: 80.30% | Train Acc: 97.86%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9786046511627907, 'val_accuracy': 0.8029739776951673, 'time': 0.19139599800109863, 'feature_dim': 128}
+
+25. Val Acc: 80.30% | Train Acc: 91.07%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9106976744186046, 'val_accuracy': 0.8029739776951673, 'time': 1.5960602760314941, 'feature_dim': 1024}
+
+26. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 12.030047178268433, 'feature_dim': 8192}
+
+27. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 12.086794376373291, 'feature_dim': 8192}
+
+28. Val Acc: 79.93% | Train Acc: 97.77%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9776744186046512, 'val_accuracy': 0.7992565055762082, 'time': 0.22786164283752441, 'feature_dim': 128}
+
+29. Val Acc: 79.93% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7992565055762082, 'time': 3.995288372039795, 'feature_dim': 3456}
+
+30. Val Acc: 79.93% | Train Acc: 98.42%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9841860465116279, 'val_accuracy': 0.7992565055762082, 'time': 0.19104957580566406, 'feature_dim': 128}
+
+31. Val Acc: 79.93% | Train Acc: 88.37%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8837209302325582, 'val_accuracy': 0.7992565055762082, 'time': 0.22210121154785156, 'feature_dim': 128}
+
+32. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 3.8386588096618652, 'feature_dim': 3456}
+
+33. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 3.8872334957122803, 'feature_dim': 3456}
+
+34. Val Acc: 79.93% | Train Acc: 91.72%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9172093023255814, 'val_accuracy': 0.7992565055762082, 'time': 1.5416710376739502, 'feature_dim': 1024}
+
+35. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 12.280672788619995, 'feature_dim': 8192}
+
+36. Val Acc: 79.55% | Train Acc: 97.58%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9758139534883721, 'val_accuracy': 0.7955390334572491, 'time': 0.19784021377563477, 'feature_dim': 128}
+
+37. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 14.274296522140503, 'feature_dim': 8192}
+
+38. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 14.301310062408447, 'feature_dim': 8192}
+
+39. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 13.815072298049927, 'feature_dim': 8192}
+
+40. Val Acc: 79.55% | Train Acc: 88.00%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.88, 'val_accuracy': 0.7955390334572491, 'time': 0.08945703506469727, 'feature_dim': 128}
+
+41. Val Acc: 79.55% | Train Acc: 91.26%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9125581395348837, 'val_accuracy': 0.7955390334572491, 'time': 0.1805558204650879, 'feature_dim': 128}
+
+42. Val Acc: 79.55% | Train Acc: 91.44%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9144186046511628, 'val_accuracy': 0.7955390334572491, 'time': 1.6374905109405518, 'feature_dim': 1024}
+
+43. Val Acc: 79.55% | Train Acc: 99.07%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9906976744186047, 'val_accuracy': 0.7955390334572491, 'time': 1.4716947078704834, 'feature_dim': 1024}
+
+44. Val Acc: 79.55% | Train Acc: 98.60%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.986046511627907, 'val_accuracy': 0.7955390334572491, 'time': 0.5535538196563721, 'feature_dim': 1024}
+
+45. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 3.8385887145996094, 'feature_dim': 3456}
+
+46. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 12.889512777328491, 'feature_dim': 8192}
+
+47. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 12.594469785690308, 'feature_dim': 8192}
+
+48. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 12.396008968353271, 'feature_dim': 8192}
+
+49. Val Acc: 79.55% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7955390334572491, 'time': 13.310497522354126, 'feature_dim': 8192}
+
+50. Val Acc: 79.55% | Train Acc: 98.42%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9841860465116279, 'val_accuracy': 0.7955390334572491, 'time': 0.5281593799591064, 'feature_dim': 1024}
+
+51. Val Acc: 79.55% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7955390334572491, 'time': 0.5531003475189209, 'feature_dim': 1024}
+
+52. Val Acc: 79.55% | Train Acc: 91.91%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9190697674418604, 'val_accuracy': 0.7955390334572491, 'time': 1.5172250270843506, 'feature_dim': 1024}
+
+53. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 3.8550851345062256, 'feature_dim': 3456}
+
+54. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 3.5700135231018066, 'feature_dim': 3456}
+
+55. Val Acc: 79.18% | Train Acc: 87.26%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8725581395348837, 'val_accuracy': 0.79182156133829, 'time': 0.08571434020996094, 'feature_dim': 128}
+
+56. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.518816947937012, 'feature_dim': 8192}
+
+57. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.49931001663208, 'feature_dim': 8192}
+
+58. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.155532598495483, 'feature_dim': 8192}
+
+59. Val Acc: 79.18% | Train Acc: 98.98%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9897674418604652, 'val_accuracy': 0.79182156133829, 'time': 1.4042818546295166, 'feature_dim': 1024}
+
+60. Val Acc: 79.18% | Train Acc: 99.07%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9906976744186047, 'val_accuracy': 0.79182156133829, 'time': 1.5468759536743164, 'feature_dim': 1024}
+
+61. Val Acc: 79.18% | Train Acc: 98.51%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9851162790697674, 'val_accuracy': 0.79182156133829, 'time': 0.5293087959289551, 'feature_dim': 1024}
+
+62. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 0.5560905933380127, 'feature_dim': 1024}
+
+63. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 3.766179323196411, 'feature_dim': 3456}
+
+64. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 3.8096582889556885, 'feature_dim': 3456}
+
+65. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 3.7504775524139404, 'feature_dim': 3456}
+
+66. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.061155319213867, 'feature_dim': 8192}
+
+67. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.214625120162964, 'feature_dim': 8192}
+
+68. Val Acc: 79.18% | Train Acc: 87.44%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8744186046511628, 'val_accuracy': 0.79182156133829, 'time': 0.22870302200317383, 'feature_dim': 128}
+
+69. Val Acc: 79.18% | Train Acc: 91.81%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9181395348837209, 'val_accuracy': 0.79182156133829, 'time': 1.3356351852416992, 'feature_dim': 1024}
+
+70. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 0.5463688373565674, 'feature_dim': 1024}
+
+71. Val Acc: 79.18% | Train Acc: 98.14%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9813953488372092, 'val_accuracy': 0.79182156133829, 'time': 1.341376781463623, 'feature_dim': 1024}
+
+72. Val Acc: 79.18% | Train Acc: 99.91%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.79182156133829, 'time': 3.575310468673706, 'feature_dim': 3456}
+
+73. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.496410131454468, 'feature_dim': 8192}
+
+74. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.647471189498901, 'feature_dim': 8192}
+
+75. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 12.411689281463623, 'feature_dim': 8192}
+
+76. Val Acc: 78.81% | Train Acc: 87.44%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8744186046511628, 'val_accuracy': 0.7881040892193308, 'time': 0.19924283027648926, 'feature_dim': 128}
+
+77. Val Acc: 78.81% | Train Acc: 98.05%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9804651162790697, 'val_accuracy': 0.7881040892193308, 'time': 0.5386583805084229, 'feature_dim': 1024}
+
+78. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 3.702239990234375, 'feature_dim': 3456}
+
+79. Val Acc: 78.81% | Train Acc: 91.81%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9181395348837209, 'val_accuracy': 0.7881040892193308, 'time': 1.5048468112945557, 'feature_dim': 1024}
+
+80. Val Acc: 78.81% | Train Acc: 91.91%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9190697674418604, 'val_accuracy': 0.7881040892193308, 'time': 1.5724382400512695, 'feature_dim': 1024}
+
+81. Val Acc: 78.81% | Train Acc: 99.07%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9906976744186047, 'val_accuracy': 0.7881040892193308, 'time': 1.5849533081054688, 'feature_dim': 1024}
+
+82. Val Acc: 78.81% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7881040892193308, 'time': 0.5630276203155518, 'feature_dim': 1024}
+
+83. Val Acc: 78.44% | Train Acc: 87.91%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8790697674418605, 'val_accuracy': 0.7843866171003717, 'time': 0.21103906631469727, 'feature_dim': 128}
+
+84. Val Acc: 78.44% | Train Acc: 99.72%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7843866171003717, 'time': 0.6186485290527344, 'feature_dim': 1024}
+
+85. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 12.862098455429077, 'feature_dim': 8192}
+
+86. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 12.744908094406128, 'feature_dim': 8192}
+
+87. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 12.859976530075073, 'feature_dim': 8192}
+
+88. Val Acc: 78.44% | Train Acc: 87.26%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8725581395348837, 'val_accuracy': 0.7843866171003717, 'time': 0.09502458572387695, 'feature_dim': 128}
+
+89. Val Acc: 78.44% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7843866171003717, 'time': 0.5429527759552002, 'feature_dim': 1024}
+
+90. Val Acc: 78.44% | Train Acc: 92.09%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9209302325581395, 'val_accuracy': 0.7843866171003717, 'time': 1.6696414947509766, 'feature_dim': 1024}
+
+91. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 4.070382118225098, 'feature_dim': 3456}
+
+92. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 3.62457013130188, 'feature_dim': 3456}
+
+93. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 3.7151641845703125, 'feature_dim': 3456}
+
+94. Val Acc: 78.44% | Train Acc: 88.09%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8809302325581395, 'val_accuracy': 0.7843866171003717, 'time': 0.21268582344055176, 'feature_dim': 128}
+
+95. Val Acc: 78.44% | Train Acc: 87.53%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8753488372093023, 'val_accuracy': 0.7843866171003717, 'time': 0.2309889793395996, 'feature_dim': 128}
+
+96. Val Acc: 78.44% | Train Acc: 98.88%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9888372093023255, 'val_accuracy': 0.7843866171003717, 'time': 1.341219186782837, 'feature_dim': 1024}
+
+97. Val Acc: 78.44% | Train Acc: 98.60%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.986046511627907, 'val_accuracy': 0.7843866171003717, 'time': 1.2393383979797363, 'feature_dim': 1024}
+
+98. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 3.3366754055023193, 'feature_dim': 3456}
+
+99. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 3.5432016849517822, 'feature_dim': 3456}
+
+100. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 12.87787652015686, 'feature_dim': 8192}
+
+101. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 12.814328670501709, 'feature_dim': 8192}
+
+102. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 12.567577600479126, 'feature_dim': 8192}
+
+103. Val Acc: 78.07% | Train Acc: 87.53%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8753488372093023, 'val_accuracy': 0.7806691449814126, 'time': 0.2243361473083496, 'feature_dim': 128}
+
+104. Val Acc: 78.07% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7806691449814126, 'time': 12.481488943099976, 'feature_dim': 8192}
+
+105. Val Acc: 78.07% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7806691449814126, 'time': 12.419965267181396, 'feature_dim': 8192}
+
+106. Val Acc: 78.07% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7806691449814126, 'time': 12.356936693191528, 'feature_dim': 8192}
+
+107. Val Acc: 78.07% | Train Acc: 87.53%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8753488372093023, 'val_accuracy': 0.7806691449814126, 'time': 0.09647274017333984, 'feature_dim': 128}
+
+108. Val Acc: 78.07% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7806691449814126, 'time': 0.5671617984771729, 'feature_dim': 1024}
+
+109. Val Acc: 78.07% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7806691449814126, 'time': 0.5187718868255615, 'feature_dim': 1024}
+
+110. Val Acc: 78.07% | Train Acc: 87.81%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.878139534883721, 'val_accuracy': 0.7806691449814126, 'time': 0.21382856369018555, 'feature_dim': 128}
+
+111. Val Acc: 78.07% | Train Acc: 98.33%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.7806691449814126, 'time': 1.2261831760406494, 'feature_dim': 1024}
+
+112. Val Acc: 78.07% | Train Acc: 99.91%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7806691449814126, 'time': 3.7345144748687744, 'feature_dim': 3456}
+
+113. Val Acc: 78.07% | Train Acc: 99.91%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7806691449814126, 'time': 3.5622758865356445, 'feature_dim': 3456}
+
+114. Val Acc: 77.70% | Train Acc: 86.51%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8651162790697674, 'val_accuracy': 0.7769516728624535, 'time': 0.10134291648864746, 'feature_dim': 128}
+
+115. Val Acc: 77.70% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7769516728624535, 'time': 3.8170063495635986, 'feature_dim': 3456}
+
+116. Val Acc: 77.70% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7769516728624535, 'time': 4.016215562820435, 'feature_dim': 3456}
+
+117. Val Acc: 77.70% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7769516728624535, 'time': 3.7609622478485107, 'feature_dim': 3456}
+
+118. Val Acc: 77.70% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7769516728624535, 'time': 3.870081901550293, 'feature_dim': 3456}
+
+119. Val Acc: 77.70% | Train Acc: 98.70%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9869767441860465, 'val_accuracy': 0.7769516728624535, 'time': 0.5757298469543457, 'feature_dim': 1024}
+
+120. Val Acc: 77.70% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7769516728624535, 'time': 4.306203603744507, 'feature_dim': 3456}
+
+121. Val Acc: 77.70% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7769516728624535, 'time': 3.8458638191223145, 'feature_dim': 3456}
+
+122. Val Acc: 77.70% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7769516728624535, 'time': 3.7329161167144775, 'feature_dim': 3456}
+
+123. Val Acc: 77.32% | Train Acc: 86.70%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8669767441860465, 'val_accuracy': 0.7732342007434945, 'time': 0.21349191665649414, 'feature_dim': 128}
+
+124. Val Acc: 77.32% | Train Acc: 98.98%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9897674418604652, 'val_accuracy': 0.7732342007434945, 'time': 1.4711956977844238, 'feature_dim': 1024}
+
+125. Val Acc: 77.32% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7732342007434945, 'time': 0.5763514041900635, 'feature_dim': 1024}
+
+126. Val Acc: 77.32% | Train Acc: 99.81%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7732342007434945, 'time': 3.9345710277557373, 'feature_dim': 3456}
+
+127. Val Acc: 77.32% | Train Acc: 98.33%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.7732342007434945, 'time': 0.2448270320892334, 'feature_dim': 128}
+
+128. Val Acc: 77.32% | Train Acc: 98.23%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9823255813953489, 'val_accuracy': 0.7732342007434945, 'time': 0.5686807632446289, 'feature_dim': 1024}
+
+129. Val Acc: 77.32% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7732342007434945, 'time': 0.5561001300811768, 'feature_dim': 1024}
+
+130. Val Acc: 77.32% | Train Acc: 99.91%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7732342007434945, 'time': 3.629223585128784, 'feature_dim': 3456}
+
+131. Val Acc: 76.95% | Train Acc: 88.28%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8827906976744186, 'val_accuracy': 0.7695167286245354, 'time': 0.0881490707397461, 'feature_dim': 128}
+
+132. Val Acc: 76.95% | Train Acc: 89.95%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.8995348837209303, 'val_accuracy': 0.7695167286245354, 'time': 0.13946104049682617, 'feature_dim': 128}
+
+133. Val Acc: 76.95% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7695167286245354, 'time': 0.5547075271606445, 'feature_dim': 1024}
+
+134. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 0.579596996307373, 'feature_dim': 1024}
+
+135. Val Acc: 76.95% | Train Acc: 99.81%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7695167286245354, 'time': 3.8035054206848145, 'feature_dim': 3456}
+
+136. Val Acc: 76.95% | Train Acc: 97.95%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9795348837209302, 'val_accuracy': 0.7695167286245354, 'time': 0.20465087890625, 'feature_dim': 128}
+
+137. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 0.5669682025909424, 'feature_dim': 1024}
+
+138. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 0.5181875228881836, 'feature_dim': 1024}
+
+139. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 0.5551619529724121, 'feature_dim': 1024}
+
+140. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 3.5597712993621826, 'feature_dim': 3456}
+
+141. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 3.5515248775482178, 'feature_dim': 3456}
+
+142. Val Acc: 76.58% | Train Acc: 98.70%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9869767441860465, 'val_accuracy': 0.7657992565055762, 'time': 0.5601480007171631, 'feature_dim': 1024}
+
+143. Val Acc: 76.58% | Train Acc: 98.51%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9851162790697674, 'val_accuracy': 0.7657992565055762, 'time': 0.5509836673736572, 'feature_dim': 1024}
+
+144. Val Acc: 76.58% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7657992565055762, 'time': 0.5491864681243896, 'feature_dim': 1024}
+
+145. Val Acc: 76.58% | Train Acc: 99.26%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.7657992565055762, 'time': 7.432150363922119, 'feature_dim': 3456}
+
+146. Val Acc: 76.58% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7657992565055762, 'time': 3.8503973484039307, 'feature_dim': 3456}
+
+147. Val Acc: 76.58% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7657992565055762, 'time': 3.777711868286133, 'feature_dim': 3456}
+
+148. Val Acc: 76.58% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7657992565055762, 'time': 0.5701162815093994, 'feature_dim': 1024}
+
+149. Val Acc: 76.58% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7657992565055762, 'time': 3.5338261127471924, 'feature_dim': 3456}
+
+150. Val Acc: 76.58% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7657992565055762, 'time': 3.4810404777526855, 'feature_dim': 3456}
+
+151. Val Acc: 76.21% | Train Acc: 92.19%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9218604651162791, 'val_accuracy': 0.7620817843866171, 'time': 1.5841689109802246, 'feature_dim': 1024}
+
+152. Val Acc: 76.21% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7620817843866171, 'time': 0.5925493240356445, 'feature_dim': 1024}
+
+153. Val Acc: 76.21% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7620817843866171, 'time': 0.5873034000396729, 'feature_dim': 1024}
+
+154. Val Acc: 76.21% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7620817843866171, 'time': 0.5712776184082031, 'feature_dim': 1024}
+
+155. Val Acc: 76.21% | Train Acc: 92.00%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.92, 'val_accuracy': 0.7620817843866171, 'time': 1.6754209995269775, 'feature_dim': 1024}
+
+156. Val Acc: 76.21% | Train Acc: 90.98%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9097674418604651, 'val_accuracy': 0.7620817843866171, 'time': 0.20653486251831055, 'feature_dim': 128}
+
+157. Val Acc: 76.21% | Train Acc: 93.02%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9302325581395349, 'val_accuracy': 0.7620817843866171, 'time': 0.7348947525024414, 'feature_dim': 128}
+
+158. Val Acc: 75.84% | Train Acc: 99.44%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.758364312267658, 'time': 1.5420618057250977, 'feature_dim': 1024}
+
+159. Val Acc: 75.84% | Train Acc: 94.42%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9441860465116279, 'val_accuracy': 0.758364312267658, 'time': 7.3457112312316895, 'feature_dim': 3456}
+
+160. Val Acc: 75.84% | Train Acc: 99.26%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.758364312267658, 'time': 21.652982711791992, 'feature_dim': 8192}
+
+161. Val Acc: 75.84% | Train Acc: 92.93%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9293023255813954, 'val_accuracy': 0.758364312267658, 'time': 1.325730562210083, 'feature_dim': 128}
+
+162. Val Acc: 75.84% | Train Acc: 98.51%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9851162790697674, 'val_accuracy': 0.758364312267658, 'time': 0.25852274894714355, 'feature_dim': 128}
+
+163. Val Acc: 75.84% | Train Acc: 86.70%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8669767441860465, 'val_accuracy': 0.758364312267658, 'time': 0.09518623352050781, 'feature_dim': 128}
+
+164. Val Acc: 75.84% | Train Acc: 99.35%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.758364312267658, 'time': 1.5104727745056152, 'feature_dim': 1024}
+
+165. Val Acc: 75.84% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.758364312267658, 'time': 0.5438740253448486, 'feature_dim': 1024}
+
+166. Val Acc: 75.84% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.758364312267658, 'time': 0.5323071479797363, 'feature_dim': 1024}
+
+167. Val Acc: 75.84% | Train Acc: 99.35%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.758364312267658, 'time': 7.411325693130493, 'feature_dim': 3456}
+
+168. Val Acc: 75.46% | Train Acc: 99.26%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.7546468401486989, 'time': 7.395785570144653, 'feature_dim': 3456}
+
+169. Val Acc: 75.46% | Train Acc: 98.70%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9869767441860465, 'val_accuracy': 0.7546468401486989, 'time': 0.24582958221435547, 'feature_dim': 128}
+
+170. Val Acc: 75.46% | Train Acc: 99.44%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7546468401486989, 'time': 1.5310885906219482, 'feature_dim': 1024}
+
+171. Val Acc: 75.46% | Train Acc: 92.93%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9293023255813954, 'val_accuracy': 0.7546468401486989, 'time': 7.334981441497803, 'feature_dim': 3456}
+
+172. Val Acc: 75.09% | Train Acc: 87.35%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8734883720930232, 'val_accuracy': 0.7509293680297398, 'time': 0.11236333847045898, 'feature_dim': 128}
+
+173. Val Acc: 75.09% | Train Acc: 98.88%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9888372093023255, 'val_accuracy': 0.7509293680297398, 'time': 0.5775845050811768, 'feature_dim': 1024}
+
+174. Val Acc: 75.09% | Train Acc: 98.88%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9888372093023255, 'val_accuracy': 0.7509293680297398, 'time': 1.4070940017700195, 'feature_dim': 1024}
+
+175. Val Acc: 75.09% | Train Acc: 99.35%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.7509293680297398, 'time': 7.304227590560913, 'feature_dim': 3456}
+
+176. Val Acc: 75.09% | Train Acc: 99.16%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9916279069767442, 'val_accuracy': 0.7509293680297398, 'time': 22.06998610496521, 'feature_dim': 8192}
+
+177. Val Acc: 75.09% | Train Acc: 98.33%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.7509293680297398, 'time': 0.24492478370666504, 'feature_dim': 128}
+
+178. Val Acc: 75.09% | Train Acc: 90.33%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9032558139534884, 'val_accuracy': 0.7509293680297398, 'time': 0.13994836807250977, 'feature_dim': 128}
+
+179. Val Acc: 75.09% | Train Acc: 92.65%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9265116279069767, 'val_accuracy': 0.7509293680297398, 'time': 0.9928884506225586, 'feature_dim': 128}
+
+180. Val Acc: 75.09% | Train Acc: 93.95%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9395348837209302, 'val_accuracy': 0.7509293680297398, 'time': 7.43690824508667, 'feature_dim': 3456}
+
+181. Val Acc: 75.09% | Train Acc: 94.05%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9404651162790698, 'val_accuracy': 0.7509293680297398, 'time': 7.392517805099487, 'feature_dim': 3456}
+
+182. Val Acc: 75.09% | Train Acc: 93.77%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9376744186046512, 'val_accuracy': 0.7509293680297398, 'time': 0.38049936294555664, 'feature_dim': 128}
+
+183. Val Acc: 75.09% | Train Acc: 87.35%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8734883720930232, 'val_accuracy': 0.7509293680297398, 'time': 0.09862518310546875, 'feature_dim': 128}
+
+184. Val Acc: 75.09% | Train Acc: 99.26%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.7509293680297398, 'time': 1.466247797012329, 'feature_dim': 1024}
+
+185. Val Acc: 75.09% | Train Acc: 94.05%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9404651162790698, 'val_accuracy': 0.7509293680297398, 'time': 7.578270435333252, 'feature_dim': 3456}
+
+186. Val Acc: 75.09% | Train Acc: 99.53%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9953488372093023, 'val_accuracy': 0.7509293680297398, 'time': 7.159525156021118, 'feature_dim': 3456}
+
+187. Val Acc: 74.72% | Train Acc: 98.33%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.7472118959107806, 'time': 0.2491614818572998, 'feature_dim': 128}
+
+188. Val Acc: 74.72% | Train Acc: 91.16%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9116279069767442, 'val_accuracy': 0.7472118959107806, 'time': 1.51072359085083, 'feature_dim': 1024}
+
+189. Val Acc: 74.72% | Train Acc: 94.51%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9451162790697675, 'val_accuracy': 0.7472118959107806, 'time': 7.276363134384155, 'feature_dim': 3456}
+
+190. Val Acc: 74.72% | Train Acc: 95.26%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9525581395348838, 'val_accuracy': 0.7472118959107806, 'time': 21.927135944366455, 'feature_dim': 8192}
+
+191. Val Acc: 74.72% | Train Acc: 97.77%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9776744186046512, 'val_accuracy': 0.7472118959107806, 'time': 0.246474027633667, 'feature_dim': 128}
+
+192. Val Acc: 74.72% | Train Acc: 98.42%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9841860465116279, 'val_accuracy': 0.7472118959107806, 'time': 0.24816632270812988, 'feature_dim': 128}
+
+193. Val Acc: 74.72% | Train Acc: 87.63%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8762790697674419, 'val_accuracy': 0.7472118959107806, 'time': 0.10195159912109375, 'feature_dim': 128}
+
+194. Val Acc: 74.72% | Train Acc: 98.42%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9841860465116279, 'val_accuracy': 0.7472118959107806, 'time': 0.5559060573577881, 'feature_dim': 1024}
+
+195. Val Acc: 74.72% | Train Acc: 99.26%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.7472118959107806, 'time': 1.5488853454589844, 'feature_dim': 1024}
+
+196. Val Acc: 74.72% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7472118959107806, 'time': 7.469470262527466, 'feature_dim': 3456}
+
+197. Val Acc: 74.72% | Train Acc: 99.35%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.7472118959107806, 'time': 21.767282009124756, 'feature_dim': 8192}
+
+198. Val Acc: 74.72% | Train Acc: 99.16%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9916279069767442, 'val_accuracy': 0.7472118959107806, 'time': 22.148555278778076, 'feature_dim': 8192}
+
+199. Val Acc: 74.35% | Train Acc: 90.14%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9013953488372093, 'val_accuracy': 0.7434944237918215, 'time': 0.2073667049407959, 'feature_dim': 128}
+
+200. Val Acc: 74.35% | Train Acc: 92.47%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9246511627906977, 'val_accuracy': 0.7434944237918215, 'time': 1.13899564743042, 'feature_dim': 128}
+
+201. Val Acc: 74.35% | Train Acc: 99.81%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7434944237918215, 'time': 1.7275288105010986, 'feature_dim': 1024}
+
+202. Val Acc: 74.35% | Train Acc: 92.28%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9227906976744186, 'val_accuracy': 0.7434944237918215, 'time': 1.5970447063446045, 'feature_dim': 1024}
+
+203. Val Acc: 74.35% | Train Acc: 99.16%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9916279069767442, 'val_accuracy': 0.7434944237918215, 'time': 1.516317367553711, 'feature_dim': 1024}
+
+204. Val Acc: 74.35% | Train Acc: 99.35%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.7434944237918215, 'time': 7.214692831039429, 'feature_dim': 3456}
+
+205. Val Acc: 74.35% | Train Acc: 94.79%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.947906976744186, 'val_accuracy': 0.7434944237918215, 'time': 7.466424465179443, 'feature_dim': 3456}
+
+206. Val Acc: 74.35% | Train Acc: 95.16%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9516279069767442, 'val_accuracy': 0.7434944237918215, 'time': 22.614575624465942, 'feature_dim': 8192}
+
+207. Val Acc: 74.35% | Train Acc: 92.56%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9255813953488372, 'val_accuracy': 0.7434944237918215, 'time': 0.5680665969848633, 'feature_dim': 128}
+
+208. Val Acc: 74.35% | Train Acc: 98.05%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9804651162790697, 'val_accuracy': 0.7434944237918215, 'time': 0.2468578815460205, 'feature_dim': 128}
+
+209. Val Acc: 74.35% | Train Acc: 88.37%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8837209302325582, 'val_accuracy': 0.7434944237918215, 'time': 0.2561075687408447, 'feature_dim': 128}
+
+210. Val Acc: 74.35% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7434944237918215, 'time': 7.6247923374176025, 'feature_dim': 3456}
+
+211. Val Acc: 74.35% | Train Acc: 94.05%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9404651162790698, 'val_accuracy': 0.7434944237918215, 'time': 7.1545751094818115, 'feature_dim': 3456}
+
+212. Val Acc: 74.35% | Train Acc: 94.14%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9413953488372093, 'val_accuracy': 0.7434944237918215, 'time': 7.155282258987427, 'feature_dim': 3456}
+
+213. Val Acc: 74.35% | Train Acc: 91.63%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9162790697674419, 'val_accuracy': 0.7434944237918215, 'time': 0.14390802383422852, 'feature_dim': 128}
+
+214. Val Acc: 74.35% | Train Acc: 89.95%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8995348837209303, 'val_accuracy': 0.7434944237918215, 'time': 1.4987034797668457, 'feature_dim': 1024}
+
+215. Val Acc: 74.35% | Train Acc: 98.23%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9823255813953489, 'val_accuracy': 0.7434944237918215, 'time': 0.5443644523620605, 'feature_dim': 1024}
+
+216. Val Acc: 74.35% | Train Acc: 93.12%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9311627906976744, 'val_accuracy': 0.7434944237918215, 'time': 7.694411516189575, 'feature_dim': 3456}
+
+217. Val Acc: 74.35% | Train Acc: 93.49%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9348837209302325, 'val_accuracy': 0.7434944237918215, 'time': 7.002799034118652, 'feature_dim': 3456}
+
+218. Val Acc: 73.98% | Train Acc: 94.88%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9488372093023256, 'val_accuracy': 0.7397769516728625, 'time': 22.188842296600342, 'feature_dim': 8192}
+
+219. Val Acc: 73.98% | Train Acc: 99.35%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.7397769516728625, 'time': 7.577336549758911, 'feature_dim': 3456}
+
+220. Val Acc: 73.98% | Train Acc: 93.95%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9395348837209302, 'val_accuracy': 0.7397769516728625, 'time': 0.5981507301330566, 'feature_dim': 128}
+
+221. Val Acc: 73.98% | Train Acc: 98.98%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9897674418604652, 'val_accuracy': 0.7397769516728625, 'time': 7.57102370262146, 'feature_dim': 3456}
+
+222. Val Acc: 73.98% | Train Acc: 92.84%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9283720930232559, 'val_accuracy': 0.7397769516728625, 'time': 7.404693603515625, 'feature_dim': 3456}
+
+223. Val Acc: 73.98% | Train Acc: 99.53%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9953488372093023, 'val_accuracy': 0.7397769516728625, 'time': 7.597350835800171, 'feature_dim': 3456}
+
+224. Val Acc: 73.61% | Train Acc: 92.47%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9246511627906977, 'val_accuracy': 0.7360594795539034, 'time': 0.8095042705535889, 'feature_dim': 128}
+
+225. Val Acc: 73.61% | Train Acc: 91.72%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9172093023255814, 'val_accuracy': 0.7360594795539034, 'time': 0.718311071395874, 'feature_dim': 128}
+
+226. Val Acc: 73.61% | Train Acc: 93.67%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9367441860465117, 'val_accuracy': 0.7360594795539034, 'time': 7.472145080566406, 'feature_dim': 3456}
+
+227. Val Acc: 73.61% | Train Acc: 99.35%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.7360594795539034, 'time': 22.992823123931885, 'feature_dim': 8192}
+
+228. Val Acc: 73.61% | Train Acc: 91.53%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9153488372093024, 'val_accuracy': 0.7360594795539034, 'time': 0.16656208038330078, 'feature_dim': 128}
+
+229. Val Acc: 73.61% | Train Acc: 95.07%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9506976744186046, 'val_accuracy': 0.7360594795539034, 'time': 22.643662929534912, 'feature_dim': 8192}
+
+230. Val Acc: 73.61% | Train Acc: 91.91%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9190697674418604, 'val_accuracy': 0.7360594795539034, 'time': 0.15328621864318848, 'feature_dim': 128}
+
+231. Val Acc: 73.61% | Train Acc: 93.67%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9367441860465117, 'val_accuracy': 0.7360594795539034, 'time': 0.7472689151763916, 'feature_dim': 128}
+
+232. Val Acc: 73.61% | Train Acc: 93.95%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9395348837209302, 'val_accuracy': 0.7360594795539034, 'time': 0.660428524017334, 'feature_dim': 128}
+
+233. Val Acc: 73.61% | Train Acc: 99.44%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7360594795539034, 'time': 7.309569835662842, 'feature_dim': 3456}
+
+234. Val Acc: 73.61% | Train Acc: 99.44%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7360594795539034, 'time': 22.29779577255249, 'feature_dim': 8192}
+
+235. Val Acc: 73.23% | Train Acc: 90.60%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.906046511627907, 'val_accuracy': 0.7323420074349443, 'time': 0.14485692977905273, 'feature_dim': 128}
+
+236. Val Acc: 73.23% | Train Acc: 87.72%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8772093023255814, 'val_accuracy': 0.7323420074349443, 'time': 0.2597944736480713, 'feature_dim': 128}
+
+237. Val Acc: 73.23% | Train Acc: 89.58%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.8958139534883721, 'val_accuracy': 0.7323420074349443, 'time': 0.12824511528015137, 'feature_dim': 128}
+
+238. Val Acc: 73.23% | Train Acc: 98.14%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9813953488372092, 'val_accuracy': 0.7323420074349443, 'time': 0.26588964462280273, 'feature_dim': 128}
+
+239. Val Acc: 73.23% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7323420074349443, 'time': 1.8004095554351807, 'feature_dim': 1024}
+
+240. Val Acc: 73.23% | Train Acc: 93.21%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.932093023255814, 'val_accuracy': 0.7323420074349443, 'time': 7.280364513397217, 'feature_dim': 3456}
+
+241. Val Acc: 73.23% | Train Acc: 99.35%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.7323420074349443, 'time': 7.373799085617065, 'feature_dim': 3456}
+
+242. Val Acc: 73.23% | Train Acc: 86.51%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8651162790697674, 'val_accuracy': 0.7323420074349443, 'time': 0.09462857246398926, 'feature_dim': 128}
+
+243. Val Acc: 73.23% | Train Acc: 87.63%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8762790697674419, 'val_accuracy': 0.7323420074349443, 'time': 0.25005269050598145, 'feature_dim': 128}
+
+244. Val Acc: 73.23% | Train Acc: 99.91%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7323420074349443, 'time': 0.54744553565979, 'feature_dim': 1024}
+
+245. Val Acc: 73.23% | Train Acc: 99.44%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7323420074349443, 'time': 7.267754793167114, 'feature_dim': 3456}
+
+246. Val Acc: 73.23% | Train Acc: 99.44%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7323420074349443, 'time': 7.208169937133789, 'feature_dim': 3456}
+
+247. Val Acc: 73.23% | Train Acc: 93.30%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9330232558139535, 'val_accuracy': 0.7323420074349443, 'time': 7.688924789428711, 'feature_dim': 3456}
+
+248. Val Acc: 73.23% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7323420074349443, 'time': 22.248755931854248, 'feature_dim': 8192}
+
+249. Val Acc: 73.23% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7323420074349443, 'time': 12.951985120773315, 'feature_dim': 8192}
+
+250. Val Acc: 73.23% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7323420074349443, 'time': 13.096843242645264, 'feature_dim': 8192}
+
+251. Val Acc: 72.86% | Train Acc: 98.23%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9823255813953489, 'val_accuracy': 0.7286245353159851, 'time': 0.2577040195465088, 'feature_dim': 128}
+
+252. Val Acc: 72.86% | Train Acc: 87.35%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8734883720930232, 'val_accuracy': 0.7286245353159851, 'time': 0.25971102714538574, 'feature_dim': 128}
+
+253. Val Acc: 72.86% | Train Acc: 99.44%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7286245353159851, 'time': 1.6074542999267578, 'feature_dim': 1024}
+
+254. Val Acc: 72.86% | Train Acc: 95.44%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9544186046511628, 'val_accuracy': 0.7286245353159851, 'time': 22.46172785758972, 'feature_dim': 8192}
+
+255. Val Acc: 72.86% | Train Acc: 99.81%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7286245353159851, 'time': 23.223503351211548, 'feature_dim': 8192}
+
+256. Val Acc: 72.86% | Train Acc: 88.28%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8827906976744186, 'val_accuracy': 0.7286245353159851, 'time': 0.26711463928222656, 'feature_dim': 128}
+
+257. Val Acc: 72.86% | Train Acc: 94.70%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9469767441860465, 'val_accuracy': 0.7286245353159851, 'time': 22.84481143951416, 'feature_dim': 8192}
+
+258. Val Acc: 72.86% | Train Acc: 88.19%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.881860465116279, 'val_accuracy': 0.7286245353159851, 'time': 0.25714540481567383, 'feature_dim': 128}
+
+259. Val Acc: 72.86% | Train Acc: 90.14%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9013953488372093, 'val_accuracy': 0.7286245353159851, 'time': 1.4911682605743408, 'feature_dim': 1024}
+
+260. Val Acc: 72.86% | Train Acc: 93.58%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.935813953488372, 'val_accuracy': 0.7286245353159851, 'time': 7.145581960678101, 'feature_dim': 3456}
+
+261. Val Acc: 72.86% | Train Acc: 94.70%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9469767441860465, 'val_accuracy': 0.7286245353159851, 'time': 22.173340797424316, 'feature_dim': 8192}
+
+262. Val Acc: 72.86% | Train Acc: 99.91%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7286245353159851, 'time': 13.068061590194702, 'feature_dim': 8192}
+
+263. Val Acc: 72.86% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7286245353159851, 'time': 13.274612426757812, 'feature_dim': 8192}
+
+264. Val Acc: 72.86% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7286245353159851, 'time': 13.002950429916382, 'feature_dim': 8192}
+
+265. Val Acc: 72.86% | Train Acc: 99.44%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7286245353159851, 'time': 22.96253252029419, 'feature_dim': 8192}
+
+266. Val Acc: 72.86% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7286245353159851, 'time': 22.30791139602661, 'feature_dim': 8192}
+
+267. Val Acc: 72.49% | Train Acc: 87.81%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.878139534883721, 'val_accuracy': 0.724907063197026, 'time': 0.24196648597717285, 'feature_dim': 128}
+
+268. Val Acc: 72.49% | Train Acc: 90.79%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9079069767441861, 'val_accuracy': 0.724907063197026, 'time': 1.7602379322052002, 'feature_dim': 1024}
+
+269. Val Acc: 72.49% | Train Acc: 94.70%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9469767441860465, 'val_accuracy': 0.724907063197026, 'time': 22.479654550552368, 'feature_dim': 8192}
+
+270. Val Acc: 72.49% | Train Acc: 87.26%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8725581395348837, 'val_accuracy': 0.724907063197026, 'time': 0.24555206298828125, 'feature_dim': 128}
+
+271. Val Acc: 72.49% | Train Acc: 88.19%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.881860465116279, 'val_accuracy': 0.724907063197026, 'time': 0.24563026428222656, 'feature_dim': 128}
+
+272. Val Acc: 72.49% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.724907063197026, 'time': 0.5274367332458496, 'feature_dim': 1024}
+
+273. Val Acc: 72.49% | Train Acc: 90.23%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9023255813953488, 'val_accuracy': 0.724907063197026, 'time': 1.570005178451538, 'feature_dim': 1024}
+
+274. Val Acc: 72.49% | Train Acc: 90.60%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.906046511627907, 'val_accuracy': 0.724907063197026, 'time': 1.5842771530151367, 'feature_dim': 1024}
+
+275. Val Acc: 72.12% | Train Acc: 87.35%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8734883720930232, 'val_accuracy': 0.7211895910780669, 'time': 0.2790076732635498, 'feature_dim': 128}
+
+276. Val Acc: 72.12% | Train Acc: 92.47%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9246511627906977, 'val_accuracy': 0.7211895910780669, 'time': 0.6428887844085693, 'feature_dim': 128}
+
+277. Val Acc: 72.12% | Train Acc: 88.47%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8846511627906977, 'val_accuracy': 0.7211895910780669, 'time': 0.2626011371612549, 'feature_dim': 128}
+
+278. Val Acc: 72.12% | Train Acc: 99.63%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.7211895910780669, 'time': 1.703434944152832, 'feature_dim': 1024}
+
+279. Val Acc: 72.12% | Train Acc: 99.26%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.7211895910780669, 'time': 7.613624572753906, 'feature_dim': 3456}
+
+280. Val Acc: 72.12% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7211895910780669, 'time': 23.022374153137207, 'feature_dim': 8192}
+
+281. Val Acc: 72.12% | Train Acc: 98.23%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9823255813953489, 'val_accuracy': 0.7211895910780669, 'time': 0.2532503604888916, 'feature_dim': 128}
+
+282. Val Acc: 72.12% | Train Acc: 93.95%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9395348837209302, 'val_accuracy': 0.7211895910780669, 'time': 20.91572141647339, 'feature_dim': 8192}
+
+283. Val Acc: 72.12% | Train Acc: 93.86%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9386046511627907, 'val_accuracy': 0.7211895910780669, 'time': 21.454998016357422, 'feature_dim': 8192}
+
+284. Val Acc: 72.12% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7211895910780669, 'time': 13.045430660247803, 'feature_dim': 8192}
+
+285. Val Acc: 72.12% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7211895910780669, 'time': 12.871725797653198, 'feature_dim': 8192}
+
+286. Val Acc: 72.12% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7211895910780669, 'time': 12.911134481430054, 'feature_dim': 8192}
+
+287. Val Acc: 72.12% | Train Acc: 94.88%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9488372093023256, 'val_accuracy': 0.7211895910780669, 'time': 22.228604793548584, 'feature_dim': 8192}
+
+288. Val Acc: 72.12% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7211895910780669, 'time': 12.789942026138306, 'feature_dim': 8192}
+
+289. Val Acc: 71.75% | Train Acc: 87.26%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8725581395348837, 'val_accuracy': 0.7174721189591078, 'time': 0.27830934524536133, 'feature_dim': 128}
+
+290. Val Acc: 71.75% | Train Acc: 98.33%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.7174721189591078, 'time': 0.2561683654785156, 'feature_dim': 128}
+
+291. Val Acc: 71.75% | Train Acc: 90.05%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9004651162790698, 'val_accuracy': 0.7174721189591078, 'time': 1.6734890937805176, 'feature_dim': 1024}
+
+292. Val Acc: 71.75% | Train Acc: 89.77%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8976744186046511, 'val_accuracy': 0.7174721189591078, 'time': 1.8509840965270996, 'feature_dim': 1024}
+
+293. Val Acc: 71.75% | Train Acc: 99.63%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.7174721189591078, 'time': 1.802121639251709, 'feature_dim': 1024}
+
+294. Val Acc: 71.75% | Train Acc: 89.40%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.893953488372093, 'val_accuracy': 0.7174721189591078, 'time': 1.779935359954834, 'feature_dim': 1024}
+
+295. Val Acc: 71.75% | Train Acc: 99.35%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.7174721189591078, 'time': 1.7481300830841064, 'feature_dim': 1024}
+
+296. Val Acc: 71.75% | Train Acc: 99.53%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9953488372093023, 'val_accuracy': 0.7174721189591078, 'time': 7.399982452392578, 'feature_dim': 3456}
+
+297. Val Acc: 71.75% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7174721189591078, 'time': 7.69589638710022, 'feature_dim': 3456}
+
+298. Val Acc: 71.75% | Train Acc: 94.88%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9488372093023256, 'val_accuracy': 0.7174721189591078, 'time': 22.893580675125122, 'feature_dim': 8192}
+
+299. Val Acc: 71.75% | Train Acc: 99.26%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.7174721189591078, 'time': 22.166818857192993, 'feature_dim': 8192}
+
+300. Val Acc: 71.75% | Train Acc: 91.35%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9134883720930232, 'val_accuracy': 0.7174721189591078, 'time': 0.1456465721130371, 'feature_dim': 128}
+
+301. Val Acc: 71.75% | Train Acc: 93.49%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9348837209302325, 'val_accuracy': 0.7174721189591078, 'time': 7.721693754196167, 'feature_dim': 3456}
+
+302. Val Acc: 71.75% | Train Acc: 93.77%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9376744186046512, 'val_accuracy': 0.7174721189591078, 'time': 21.059751987457275, 'feature_dim': 8192}
+
+303. Val Acc: 71.75% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7174721189591078, 'time': 12.984479904174805, 'feature_dim': 8192}
+
+304. Val Acc: 71.75% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7174721189591078, 'time': 13.033915281295776, 'feature_dim': 8192}
+
+305. Val Acc: 71.75% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7174721189591078, 'time': 22.652439832687378, 'feature_dim': 8192}
+
+306. Val Acc: 71.38% | Train Acc: 90.60%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.906046511627907, 'val_accuracy': 0.7137546468401487, 'time': 21.385663509368896, 'feature_dim': 8192}
+
+307. Val Acc: 71.38% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.7137546468401487, 'time': 4.024065256118774, 'feature_dim': 3456}
+
+308. Val Acc: 71.38% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7137546468401487, 'time': 12.938303709030151, 'feature_dim': 8192}
+
+309. Val Acc: 71.38% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7137546468401487, 'time': 22.539729833602905, 'feature_dim': 8192}
+
+310. Val Acc: 71.00% | Train Acc: 88.56%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8855813953488372, 'val_accuracy': 0.7100371747211895, 'time': 1.5559108257293701, 'feature_dim': 1024}
+
+311. Val Acc: 71.00% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7100371747211895, 'time': 22.704279899597168, 'feature_dim': 8192}
+
+312. Val Acc: 71.00% | Train Acc: 70.42%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.7041860465116279, 'val_accuracy': 0.7100371747211895, 'time': 0.3274719715118408, 'feature_dim': 128}
+
+313. Val Acc: 71.00% | Train Acc: 92.56%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9255813953488372, 'val_accuracy': 0.7100371747211895, 'time': 7.322835922241211, 'feature_dim': 3456}
+
+314. Val Acc: 71.00% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7100371747211895, 'time': 22.592840671539307, 'feature_dim': 8192}
+
+315. Val Acc: 71.00% | Train Acc: 99.44%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.7100371747211895, 'time': 22.58407950401306, 'feature_dim': 8192}
+
+316. Val Acc: 71.00% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7100371747211895, 'time': 3.770576000213623, 'feature_dim': 3456}
+
+317. Val Acc: 71.00% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7100371747211895, 'time': 3.8350038528442383, 'feature_dim': 3456}
+
+318. Val Acc: 70.63% | Train Acc: 75.35%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7534883720930232, 'val_accuracy': 0.7063197026022305, 'time': 0.13581538200378418, 'feature_dim': 128}
+
+319. Val Acc: 70.63% | Train Acc: 89.40%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.893953488372093, 'val_accuracy': 0.7063197026022305, 'time': 1.6907758712768555, 'feature_dim': 1024}
+
+320. Val Acc: 70.63% | Train Acc: 88.47%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8846511627906977, 'val_accuracy': 0.7063197026022305, 'time': 1.6701319217681885, 'feature_dim': 1024}
+
+321. Val Acc: 70.63% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7063197026022305, 'time': 8.01688838005066, 'feature_dim': 3456}
+
+322. Val Acc: 70.63% | Train Acc: 77.86%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7786046511627907, 'val_accuracy': 0.7063197026022305, 'time': 0.13293862342834473, 'feature_dim': 128}
+
+323. Val Acc: 70.26% | Train Acc: 74.60%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.746046511627907, 'val_accuracy': 0.7026022304832714, 'time': 0.13730525970458984, 'feature_dim': 128}
+
+324. Val Acc: 70.26% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7026022304832714, 'time': 8.080984592437744, 'feature_dim': 3456}
+
+325. Val Acc: 70.26% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7026022304832714, 'time': 22.467615604400635, 'feature_dim': 8192}
+
+326. Val Acc: 70.26% | Train Acc: 71.44%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.7144186046511628, 'val_accuracy': 0.7026022304832714, 'time': 0.2822885513305664, 'feature_dim': 128}
+
+327. Val Acc: 70.26% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7026022304832714, 'time': 7.979890823364258, 'feature_dim': 3456}
+
+328. Val Acc: 70.26% | Train Acc: 79.53%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7953488372093023, 'val_accuracy': 0.7026022304832714, 'time': 0.3195817470550537, 'feature_dim': 128}
+
+329. Val Acc: 70.26% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7026022304832714, 'time': 3.841674327850342, 'feature_dim': 3456}
+
+330. Val Acc: 70.26% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7026022304832714, 'time': 3.774907112121582, 'feature_dim': 3456}
+
+331. Val Acc: 70.26% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7026022304832714, 'time': 3.912428140640259, 'feature_dim': 3456}
+
+332. Val Acc: 69.89% | Train Acc: 70.51%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.7051162790697675, 'val_accuracy': 0.6988847583643123, 'time': 0.29578208923339844, 'feature_dim': 128}
+
+333. Val Acc: 69.89% | Train Acc: 88.56%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.8855813953488372, 'val_accuracy': 0.6988847583643123, 'time': 1.629023551940918, 'feature_dim': 1024}
+
+334. Val Acc: 69.89% | Train Acc: 99.26%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.6988847583643123, 'time': 1.6688830852508545, 'feature_dim': 1024}
+
+335. Val Acc: 69.89% | Train Acc: 99.35%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.6988847583643123, 'time': 1.716465950012207, 'feature_dim': 1024}
+
+336. Val Acc: 69.89% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.6988847583643123, 'time': 22.622086763381958, 'feature_dim': 8192}
+
+337. Val Acc: 69.89% | Train Acc: 90.60%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.906046511627907, 'val_accuracy': 0.6988847583643123, 'time': 21.268224477767944, 'feature_dim': 8192}
+
+338. Val Acc: 69.89% | Train Acc: 95.72%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9572093023255814, 'val_accuracy': 0.6988847583643123, 'time': 0.7347946166992188, 'feature_dim': 1024}
+
+339. Val Acc: 69.89% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6988847583643123, 'time': 12.889574766159058, 'feature_dim': 8192}
+
+340. Val Acc: 69.89% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6988847583643123, 'time': 12.774120330810547, 'feature_dim': 8192}
+
+341. Val Acc: 69.89% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6988847583643123, 'time': 12.902561664581299, 'feature_dim': 8192}
+
+342. Val Acc: 69.89% | Train Acc: 99.35%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.6988847583643123, 'time': 22.43716049194336, 'feature_dim': 8192}
+
+343. Val Acc: 69.89% | Train Acc: 81.30%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8130232558139535, 'val_accuracy': 0.6988847583643123, 'time': 3.1226255893707275, 'feature_dim': 128}
+
+344. Val Acc: 69.89% | Train Acc: 91.81%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9181395348837209, 'val_accuracy': 0.6988847583643123, 'time': 0.19230914115905762, 'feature_dim': 128}
+
+345. Val Acc: 69.89% | Train Acc: 99.35%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.6988847583643123, 'time': 3.8251826763153076, 'feature_dim': 3456}
+
+346. Val Acc: 69.89% | Train Acc: 93.95%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9395348837209302, 'val_accuracy': 0.6988847583643123, 'time': 21.602828979492188, 'feature_dim': 8192}
+
+347. Val Acc: 69.89% | Train Acc: 93.58%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.935813953488372, 'val_accuracy': 0.6988847583643123, 'time': 22.197739839553833, 'feature_dim': 8192}
+
+348. Val Acc: 69.52% | Train Acc: 78.14%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7813953488372093, 'val_accuracy': 0.6951672862453532, 'time': 0.3797276020050049, 'feature_dim': 128}
+
+349. Val Acc: 69.52% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.6951672862453532, 'time': 7.81645655632019, 'feature_dim': 3456}
+
+350. Val Acc: 69.52% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.6951672862453532, 'time': 23.056017875671387, 'feature_dim': 8192}
+
+351. Val Acc: 69.52% | Train Acc: 76.37%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7637209302325582, 'val_accuracy': 0.6951672862453532, 'time': 0.12546205520629883, 'feature_dim': 128}
+
+352. Val Acc: 69.52% | Train Acc: 70.05%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.7004651162790698, 'val_accuracy': 0.6951672862453532, 'time': 0.2767484188079834, 'feature_dim': 128}
+
+353. Val Acc: 69.52% | Train Acc: 77.12%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7711627906976745, 'val_accuracy': 0.6951672862453532, 'time': 0.13065695762634277, 'feature_dim': 128}
+
+354. Val Acc: 69.52% | Train Acc: 76.47%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7646511627906977, 'val_accuracy': 0.6951672862453532, 'time': 0.13201403617858887, 'feature_dim': 128}
+
+355. Val Acc: 69.52% | Train Acc: 92.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.92, 'val_accuracy': 0.6951672862453532, 'time': 7.55394172668457, 'feature_dim': 3456}
+
+356. Val Acc: 69.52% | Train Acc: 91.44%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9144186046511628, 'val_accuracy': 0.6951672862453532, 'time': 7.39543342590332, 'feature_dim': 3456}
+
+357. Val Acc: 69.52% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.6951672862453532, 'time': 22.412070274353027, 'feature_dim': 8192}
+
+358. Val Acc: 69.52% | Train Acc: 80.56%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.8055813953488372, 'val_accuracy': 0.6951672862453532, 'time': 0.3567667007446289, 'feature_dim': 128}
+
+359. Val Acc: 69.14% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.6914498141263941, 'time': 7.680113077163696, 'feature_dim': 3456}
+
+360. Val Acc: 69.14% | Train Acc: 90.33%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9032558139534884, 'val_accuracy': 0.6914498141263941, 'time': 7.764395713806152, 'feature_dim': 3456}
+
+361. Val Acc: 69.14% | Train Acc: 91.53%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9153488372093024, 'val_accuracy': 0.6914498141263941, 'time': 21.615467071533203, 'feature_dim': 8192}
+
+362. Val Acc: 69.14% | Train Acc: 79.16%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7916279069767442, 'val_accuracy': 0.6914498141263941, 'time': 0.3266267776489258, 'feature_dim': 128}
+
+363. Val Acc: 69.14% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6914498141263941, 'time': 13.58565878868103, 'feature_dim': 8192}
+
+364. Val Acc: 69.14% | Train Acc: 76.19%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.761860465116279, 'val_accuracy': 0.6914498141263941, 'time': 0.14069104194641113, 'feature_dim': 128}
+
+365. Val Acc: 69.14% | Train Acc: 98.98%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9897674418604652, 'val_accuracy': 0.6914498141263941, 'time': 0.7224183082580566, 'feature_dim': 1024}
+
+366. Val Acc: 69.14% | Train Acc: 99.91%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.6914498141263941, 'time': 0.9087026119232178, 'feature_dim': 1024}
+
+367. Val Acc: 69.14% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6914498141263941, 'time': 4.0993077754974365, 'feature_dim': 3456}
+
+368. Val Acc: 69.14% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6914498141263941, 'time': 4.21050763130188, 'feature_dim': 3456}
+
+369. Val Acc: 68.77% | Train Acc: 92.84%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9283720930232559, 'val_accuracy': 0.6877323420074349, 'time': 8.120813846588135, 'feature_dim': 3456}
+
+370. Val Acc: 68.77% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.6877323420074349, 'time': 7.859750032424927, 'feature_dim': 3456}
+
+371. Val Acc: 68.77% | Train Acc: 82.60%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.826046511627907, 'val_accuracy': 0.6877323420074349, 'time': 1.7740447521209717, 'feature_dim': 128}
+
+372. Val Acc: 68.77% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.6877323420074349, 'time': 4.232233285903931, 'feature_dim': 3456}
+
+373. Val Acc: 68.77% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6877323420074349, 'time': 14.419843673706055, 'feature_dim': 8192}
+
+374. Val Acc: 68.77% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6877323420074349, 'time': 12.752522468566895, 'feature_dim': 8192}
+
+375. Val Acc: 68.77% | Train Acc: 77.77%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7776744186046511, 'val_accuracy': 0.6877323420074349, 'time': 0.12754440307617188, 'feature_dim': 128}
+
+376. Val Acc: 68.77% | Train Acc: 94.70%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9469767441860465, 'val_accuracy': 0.6877323420074349, 'time': 0.6548867225646973, 'feature_dim': 1024}
+
+377. Val Acc: 68.77% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.6877323420074349, 'time': 3.8185617923736572, 'feature_dim': 3456}
+
+378. Val Acc: 68.40% | Train Acc: 69.21%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6920930232558139, 'val_accuracy': 0.6840148698884758, 'time': 0.2866079807281494, 'feature_dim': 128}
+
+379. Val Acc: 68.40% | Train Acc: 73.95%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7395348837209302, 'val_accuracy': 0.6840148698884758, 'time': 0.12130951881408691, 'feature_dim': 128}
+
+380. Val Acc: 68.40% | Train Acc: 77.95%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7795348837209303, 'val_accuracy': 0.6840148698884758, 'time': 0.27904534339904785, 'feature_dim': 128}
+
+381. Val Acc: 68.40% | Train Acc: 69.67%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6967441860465117, 'val_accuracy': 0.6840148698884758, 'time': 0.2638094425201416, 'feature_dim': 128}
+
+382. Val Acc: 68.40% | Train Acc: 91.26%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9125581395348837, 'val_accuracy': 0.6840148698884758, 'time': 7.662478923797607, 'feature_dim': 3456}
+
+383. Val Acc: 68.40% | Train Acc: 92.84%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9283720930232559, 'val_accuracy': 0.6840148698884758, 'time': 22.111839056015015, 'feature_dim': 8192}
+
+384. Val Acc: 68.40% | Train Acc: 70.42%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.7041860465116279, 'val_accuracy': 0.6840148698884758, 'time': 0.27774786949157715, 'feature_dim': 128}
+
+385. Val Acc: 68.40% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6840148698884758, 'time': 4.3306357860565186, 'feature_dim': 3456}
+
+386. Val Acc: 68.40% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6840148698884758, 'time': 4.481465101242065, 'feature_dim': 3456}
+
+387. Val Acc: 68.40% | Train Acc: 76.74%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7674418604651163, 'val_accuracy': 0.6840148698884758, 'time': 0.13293790817260742, 'feature_dim': 128}
+
+388. Val Acc: 68.40% | Train Acc: 81.40%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.813953488372093, 'val_accuracy': 0.6840148698884758, 'time': 2.4378833770751953, 'feature_dim': 128}
+
+389. Val Acc: 68.40% | Train Acc: 81.77%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8176744186046512, 'val_accuracy': 0.6840148698884758, 'time': 4.114518880844116, 'feature_dim': 128}
+
+390. Val Acc: 68.40% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6840148698884758, 'time': 3.796477794647217, 'feature_dim': 3456}
+
+391. Val Acc: 68.40% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6840148698884758, 'time': 3.8474035263061523, 'feature_dim': 3456}
+
+392. Val Acc: 68.03% | Train Acc: 80.84%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8083720930232559, 'val_accuracy': 0.6802973977695167, 'time': 2.3533880710601807, 'feature_dim': 128}
+
+393. Val Acc: 68.03% | Train Acc: 78.05%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7804651162790698, 'val_accuracy': 0.6802973977695167, 'time': 0.3510868549346924, 'feature_dim': 128}
+
+394. Val Acc: 68.03% | Train Acc: 81.77%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8176744186046512, 'val_accuracy': 0.6802973977695167, 'time': 3.294512987136841, 'feature_dim': 128}
+
+395. Val Acc: 68.03% | Train Acc: 94.60%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.946046511627907, 'val_accuracy': 0.6802973977695167, 'time': 0.6880302429199219, 'feature_dim': 1024}
+
+396. Val Acc: 68.03% | Train Acc: 94.98%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9497674418604651, 'val_accuracy': 0.6802973977695167, 'time': 0.6678681373596191, 'feature_dim': 1024}
+
+397. Val Acc: 68.03% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6802973977695167, 'time': 13.049994945526123, 'feature_dim': 8192}
+
+398. Val Acc: 68.03% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6802973977695167, 'time': 12.801423788070679, 'feature_dim': 8192}
+
+399. Val Acc: 68.03% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6802973977695167, 'time': 12.860320329666138, 'feature_dim': 8192}
+
+400. Val Acc: 68.03% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.6802973977695167, 'time': 22.131616830825806, 'feature_dim': 8192}
+
+401. Val Acc: 68.03% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6802973977695167, 'time': 12.820687294006348, 'feature_dim': 8192}
+
+402. Val Acc: 68.03% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6802973977695167, 'time': 13.001642942428589, 'feature_dim': 8192}
+
+403. Val Acc: 68.03% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6802973977695167, 'time': 12.766173124313354, 'feature_dim': 8192}
+
+404. Val Acc: 68.03% | Train Acc: 80.37%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.8037209302325582, 'val_accuracy': 0.6802973977695167, 'time': 0.3162219524383545, 'feature_dim': 128}
+
+405. Val Acc: 68.03% | Train Acc: 68.37%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6837209302325581, 'val_accuracy': 0.6802973977695167, 'time': 0.2800636291503906, 'feature_dim': 128}
+
+406. Val Acc: 68.03% | Train Acc: 93.49%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9348837209302325, 'val_accuracy': 0.6802973977695167, 'time': 21.900369882583618, 'feature_dim': 8192}
+
+407. Val Acc: 67.66% | Train Acc: 69.49%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6948837209302325, 'val_accuracy': 0.6765799256505576, 'time': 0.2912752628326416, 'feature_dim': 128}
+
+408. Val Acc: 67.66% | Train Acc: 80.09%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8009302325581396, 'val_accuracy': 0.6765799256505576, 'time': 2.8400659561157227, 'feature_dim': 128}
+
+409. Val Acc: 67.66% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6765799256505576, 'time': 13.481203079223633, 'feature_dim': 8192}
+
+410. Val Acc: 67.66% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6765799256505576, 'time': 13.601264715194702, 'feature_dim': 8192}
+
+411. Val Acc: 67.66% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6765799256505576, 'time': 13.967040538787842, 'feature_dim': 8192}
+
+412. Val Acc: 67.66% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6765799256505576, 'time': 4.370476245880127, 'feature_dim': 3456}
+
+413. Val Acc: 67.66% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6765799256505576, 'time': 5.13892126083374, 'feature_dim': 3456}
+
+414. Val Acc: 67.66% | Train Acc: 93.49%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9348837209302325, 'val_accuracy': 0.6765799256505576, 'time': 21.678474187850952, 'feature_dim': 8192}
+
+415. Val Acc: 67.66% | Train Acc: 69.02%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6902325581395349, 'val_accuracy': 0.6765799256505576, 'time': 0.27889013290405273, 'feature_dim': 128}
+
+416. Val Acc: 67.66% | Train Acc: 98.51%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9851162790697674, 'val_accuracy': 0.6765799256505576, 'time': 0.7707042694091797, 'feature_dim': 1024}
+
+417. Val Acc: 67.29% | Train Acc: 76.93%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7693023255813953, 'val_accuracy': 0.6728624535315985, 'time': 0.1397256851196289, 'feature_dim': 128}
+
+418. Val Acc: 67.29% | Train Acc: 79.72%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7972093023255814, 'val_accuracy': 0.6728624535315985, 'time': 0.33702516555786133, 'feature_dim': 128}
+
+419. Val Acc: 67.29% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.6728624535315985, 'time': 22.947197198867798, 'feature_dim': 8192}
+
+420. Val Acc: 67.29% | Train Acc: 67.26%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6725581395348837, 'val_accuracy': 0.6728624535315985, 'time': 0.2840452194213867, 'feature_dim': 128}
+
+421. Val Acc: 66.91% | Train Acc: 80.47%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8046511627906977, 'val_accuracy': 0.6691449814126395, 'time': 2.392427682876587, 'feature_dim': 128}
+
+422. Val Acc: 66.91% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6691449814126395, 'time': 4.046446800231934, 'feature_dim': 3456}
+
+423. Val Acc: 66.91% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6691449814126395, 'time': 4.2969067096710205, 'feature_dim': 3456}
+
+424. Val Acc: 66.91% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6691449814126395, 'time': 4.2704877853393555, 'feature_dim': 3456}
+
+425. Val Acc: 66.91% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6691449814126395, 'time': 4.191874742507935, 'feature_dim': 3456}
+
+426. Val Acc: 66.91% | Train Acc: 79.53%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7953488372093023, 'val_accuracy': 0.6691449814126395, 'time': 0.3390364646911621, 'feature_dim': 128}
+
+427. Val Acc: 66.91% | Train Acc: 79.16%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7916279069767442, 'val_accuracy': 0.6691449814126395, 'time': 0.3936879634857178, 'feature_dim': 128}
+
+428. Val Acc: 66.91% | Train Acc: 93.30%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9330232558139535, 'val_accuracy': 0.6691449814126395, 'time': 21.27735471725464, 'feature_dim': 8192}
+
+429. Val Acc: 66.91% | Train Acc: 93.77%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9376744186046512, 'val_accuracy': 0.6691449814126395, 'time': 0.6977710723876953, 'feature_dim': 1024}
+
+430. Val Acc: 66.54% | Train Acc: 92.00%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.92, 'val_accuracy': 0.6654275092936803, 'time': 0.6934185028076172, 'feature_dim': 1024}
+
+431. Val Acc: 66.54% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6654275092936803, 'time': 4.067363023757935, 'feature_dim': 3456}
+
+432. Val Acc: 66.54% | Train Acc: 92.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.92, 'val_accuracy': 0.6654275092936803, 'time': 8.08036756515503, 'feature_dim': 3456}
+
+433. Val Acc: 66.54% | Train Acc: 81.86%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8186046511627907, 'val_accuracy': 0.6654275092936803, 'time': 2.7781901359558105, 'feature_dim': 128}
+
+434. Val Acc: 66.54% | Train Acc: 92.65%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9265116279069767, 'val_accuracy': 0.6654275092936803, 'time': 21.913103342056274, 'feature_dim': 8192}
+
+435. Val Acc: 66.54% | Train Acc: 68.00%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.68, 'val_accuracy': 0.6654275092936803, 'time': 0.3034849166870117, 'feature_dim': 128}
+
+436. Val Acc: 66.17% | Train Acc: 74.70%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.7469767441860465, 'val_accuracy': 0.6617100371747212, 'time': 0.13704991340637207, 'feature_dim': 128}
+
+437. Val Acc: 66.17% | Train Acc: 94.05%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9404651162790698, 'val_accuracy': 0.6617100371747212, 'time': 0.6710820198059082, 'feature_dim': 1024}
+
+438. Val Acc: 66.17% | Train Acc: 93.12%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9311627906976744, 'val_accuracy': 0.6617100371747212, 'time': 0.68430495262146, 'feature_dim': 1024}
+
+439. Val Acc: 66.17% | Train Acc: 99.44%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.6617100371747212, 'time': 1.1038336753845215, 'feature_dim': 1024}
+
+440. Val Acc: 66.17% | Train Acc: 99.63%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.6617100371747212, 'time': 4.096388101577759, 'feature_dim': 3456}
+
+441. Val Acc: 66.17% | Train Acc: 82.33%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8232558139534883, 'val_accuracy': 0.6617100371747212, 'time': 2.3053929805755615, 'feature_dim': 128}
+
+442. Val Acc: 66.17% | Train Acc: 95.26%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9525581395348838, 'val_accuracy': 0.6617100371747212, 'time': 0.723313570022583, 'feature_dim': 1024}
+
+443. Val Acc: 66.17% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.6617100371747212, 'time': 4.556302547454834, 'feature_dim': 3456}
+
+444. Val Acc: 66.17% | Train Acc: 92.56%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9255813953488372, 'val_accuracy': 0.6617100371747212, 'time': 21.691320180892944, 'feature_dim': 8192}
+
+445. Val Acc: 66.17% | Train Acc: 80.37%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.8037209302325582, 'val_accuracy': 0.6617100371747212, 'time': 0.3732926845550537, 'feature_dim': 128}
+
+446. Val Acc: 65.80% | Train Acc: 76.84%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.7683720930232558, 'val_accuracy': 0.6579925650557621, 'time': 0.404285192489624, 'feature_dim': 128}
+
+447. Val Acc: 65.80% | Train Acc: 92.65%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9265116279069767, 'val_accuracy': 0.6579925650557621, 'time': 0.7067675590515137, 'feature_dim': 1024}
+
+448. Val Acc: 65.80% | Train Acc: 98.98%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9897674418604652, 'val_accuracy': 0.6579925650557621, 'time': 4.0837578773498535, 'feature_dim': 3456}
+
+449. Val Acc: 65.80% | Train Acc: 94.60%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.946046511627907, 'val_accuracy': 0.6579925650557621, 'time': 0.6991534233093262, 'feature_dim': 1024}
+
+450. Val Acc: 65.43% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.654275092936803, 'time': 4.019734621047974, 'feature_dim': 3456}
+
+451. Val Acc: 65.43% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.654275092936803, 'time': 4.046921014785767, 'feature_dim': 3456}
+
+452. Val Acc: 65.43% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.654275092936803, 'time': 4.756375551223755, 'feature_dim': 3456}
+
+453. Val Acc: 65.43% | Train Acc: 99.44%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.654275092936803, 'time': 4.409250259399414, 'feature_dim': 3456}
+
+454. Val Acc: 65.43% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.654275092936803, 'time': 1.0883455276489258, 'feature_dim': 1024}
+
+455. Val Acc: 65.43% | Train Acc: 94.60%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.946046511627907, 'val_accuracy': 0.654275092936803, 'time': 0.688485860824585, 'feature_dim': 1024}
+
+456. Val Acc: 65.06% | Train Acc: 97.86%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9786046511627907, 'val_accuracy': 0.6505576208178439, 'time': 0.7417268753051758, 'feature_dim': 1024}
+
+457. Val Acc: 65.06% | Train Acc: 99.53%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9953488372093023, 'val_accuracy': 0.6505576208178439, 'time': 0.6981043815612793, 'feature_dim': 1024}
+
+458. Val Acc: 65.06% | Train Acc: 98.05%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9804651162790697, 'val_accuracy': 0.6505576208178439, 'time': 0.7996041774749756, 'feature_dim': 1024}
+
+459. Val Acc: 65.06% | Train Acc: 81.86%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.8186046511627907, 'val_accuracy': 0.6505576208178439, 'time': 2.2648277282714844, 'feature_dim': 128}
+
+460. Val Acc: 65.06% | Train Acc: 98.33%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.6505576208178439, 'time': 0.7550222873687744, 'feature_dim': 1024}
+
+461. Val Acc: 64.68% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6468401486988847, 'time': 4.1019511222839355, 'feature_dim': 3456}
+
+462. Val Acc: 64.68% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6468401486988847, 'time': 3.9028890132904053, 'feature_dim': 3456}
+
+463. Val Acc: 64.68% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6468401486988847, 'time': 4.522022724151611, 'feature_dim': 3456}
+
+464. Val Acc: 64.68% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6468401486988847, 'time': 4.447224140167236, 'feature_dim': 3456}
+
+465. Val Acc: 64.68% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.6468401486988847, 'time': 0.950000524520874, 'feature_dim': 1024}
+
+466. Val Acc: 64.31% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6431226765799256, 'time': 12.856904745101929, 'feature_dim': 8192}
+
+467. Val Acc: 64.31% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6431226765799256, 'time': 13.402350425720215, 'feature_dim': 8192}
+
+468. Val Acc: 64.31% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6431226765799256, 'time': 13.470321893692017, 'feature_dim': 8192}
+
+469. Val Acc: 64.31% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6431226765799256, 'time': 0.7172744274139404, 'feature_dim': 1024}
+
+470. Val Acc: 64.31% | Train Acc: 99.63%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.6431226765799256, 'time': 1.2604427337646484, 'feature_dim': 1024}
+
+471. Val Acc: 64.31% | Train Acc: 98.42%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9841860465116279, 'val_accuracy': 0.6431226765799256, 'time': 0.7525634765625, 'feature_dim': 1024}
+
+472. Val Acc: 63.94% | Train Acc: 99.53%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9953488372093023, 'val_accuracy': 0.6394052044609665, 'time': 4.029886722564697, 'feature_dim': 3456}
+
+473. Val Acc: 63.94% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6394052044609665, 'time': 13.116641759872437, 'feature_dim': 8192}
+
+474. Val Acc: 63.94% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6394052044609665, 'time': 4.479761123657227, 'feature_dim': 3456}
+
+475. Val Acc: 63.94% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6394052044609665, 'time': 5.014313697814941, 'feature_dim': 3456}
+
+476. Val Acc: 63.57% | Train Acc: 97.12%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9711627906976744, 'val_accuracy': 0.6356877323420075, 'time': 0.8116593360900879, 'feature_dim': 1024}
+
+477. Val Acc: 63.57% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6356877323420075, 'time': 13.328075647354126, 'feature_dim': 8192}
+
+478. Val Acc: 63.57% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6356877323420075, 'time': 13.22068476676941, 'feature_dim': 8192}
+
+479. Val Acc: 63.57% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6356877323420075, 'time': 13.124054431915283, 'feature_dim': 8192}
+
+480. Val Acc: 63.57% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6356877323420075, 'time': 12.94571566581726, 'feature_dim': 8192}
+
+481. Val Acc: 63.57% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6356877323420075, 'time': 12.954646825790405, 'feature_dim': 8192}
+
+482. Val Acc: 63.57% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.6356877323420075, 'time': 1.0129368305206299, 'feature_dim': 1024}
+
+483. Val Acc: 63.20% | Train Acc: 98.51%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9851162790697674, 'val_accuracy': 0.6319702602230484, 'time': 0.7695968151092529, 'feature_dim': 1024}
+
+484. Val Acc: 63.20% | Train Acc: 99.81%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.6319702602230484, 'time': 0.8825452327728271, 'feature_dim': 1024}
+
+485. Val Acc: 63.20% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.6319702602230484, 'time': 1.1651556491851807, 'feature_dim': 1024}
+
+486. Val Acc: 62.83% | Train Acc: 79.91%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.7990697674418604, 'val_accuracy': 0.6282527881040892, 'time': 2.403912305831909, 'feature_dim': 128}
+
+487. Val Acc: 62.83% | Train Acc: 57.49%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5748837209302325, 'val_accuracy': 0.6282527881040892, 'time': 0.30167102813720703, 'feature_dim': 128}
+
+488. Val Acc: 62.45% | Train Acc: 57.77%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5776744186046512, 'val_accuracy': 0.6245353159851301, 'time': 0.3091599941253662, 'feature_dim': 128}
+
+489. Val Acc: 62.45% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.6245353159851301, 'time': 0.7663159370422363, 'feature_dim': 1024}
+
+490. Val Acc: 62.45% | Train Acc: 98.23%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9823255813953489, 'val_accuracy': 0.6245353159851301, 'time': 0.768557071685791, 'feature_dim': 1024}
+
+491. Val Acc: 62.08% | Train Acc: 61.40%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6139534883720931, 'val_accuracy': 0.620817843866171, 'time': 2.1366126537323, 'feature_dim': 1024}
+
+492. Val Acc: 62.08% | Train Acc: 98.33%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.620817843866171, 'time': 1.7313740253448486, 'feature_dim': 1024}
+
+493. Val Acc: 62.08% | Train Acc: 59.81%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.598139534883721, 'val_accuracy': 0.620817843866171, 'time': 0.3081626892089844, 'feature_dim': 128}
+
+494. Val Acc: 62.08% | Train Acc: 99.07%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9906976744186047, 'val_accuracy': 0.620817843866171, 'time': 0.6990370750427246, 'feature_dim': 1024}
+
+495. Val Acc: 61.71% | Train Acc: 57.67%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5767441860465117, 'val_accuracy': 0.6171003717472119, 'time': 0.3157322406768799, 'feature_dim': 128}
+
+496. Val Acc: 61.34% | Train Acc: 63.26%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6325581395348837, 'val_accuracy': 0.6133828996282528, 'time': 2.206460475921631, 'feature_dim': 1024}
+
+497. Val Acc: 61.34% | Train Acc: 97.40%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9739534883720931, 'val_accuracy': 0.6133828996282528, 'time': 0.7360513210296631, 'feature_dim': 1024}
+
+498. Val Acc: 61.34% | Train Acc: 99.35%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.6133828996282528, 'time': 1.8853778839111328, 'feature_dim': 1024}
+
+499. Val Acc: 60.97% | Train Acc: 60.09%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6009302325581395, 'val_accuracy': 0.6096654275092936, 'time': 2.292212963104248, 'feature_dim': 1024}
+
+500. Val Acc: 60.22% | Train Acc: 60.28%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6027906976744186, 'val_accuracy': 0.6022304832713755, 'time': 2.2811408042907715, 'feature_dim': 1024}
+
+501. Val Acc: 59.85% | Train Acc: 55.81%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5581395348837209, 'val_accuracy': 0.5985130111524164, 'time': 2.155751943588257, 'feature_dim': 1024}
+
+502. Val Acc: 59.85% | Train Acc: 61.95%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6195348837209302, 'val_accuracy': 0.5985130111524164, 'time': 2.1030421257019043, 'feature_dim': 1024}
+
+503. Val Acc: 59.85% | Train Acc: 61.95%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6195348837209302, 'val_accuracy': 0.5985130111524164, 'time': 2.082876205444336, 'feature_dim': 1024}
+
+504. Val Acc: 59.48% | Train Acc: 56.09%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5609302325581396, 'val_accuracy': 0.5947955390334573, 'time': 0.2996664047241211, 'feature_dim': 128}
+
+505. Val Acc: 59.11% | Train Acc: 58.42%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5841860465116279, 'val_accuracy': 0.5910780669144982, 'time': 2.150944471359253, 'feature_dim': 1024}
+
+506. Val Acc: 59.11% | Train Acc: 62.60%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.626046511627907, 'val_accuracy': 0.5910780669144982, 'time': 2.1799705028533936, 'feature_dim': 1024}
+
+507. Val Acc: 58.74% | Train Acc: 56.93%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5693023255813954, 'val_accuracy': 0.587360594795539, 'time': 0.3150312900543213, 'feature_dim': 128}
+
+508. Val Acc: 58.74% | Train Acc: 62.05%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6204651162790698, 'val_accuracy': 0.587360594795539, 'time': 1.8702690601348877, 'feature_dim': 1024}
+
+509. Val Acc: 57.99% | Train Acc: 58.70%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5869767441860465, 'val_accuracy': 0.5799256505576208, 'time': 2.1823182106018066, 'feature_dim': 1024}
+
+510. Val Acc: 57.99% | Train Acc: 56.56%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5655813953488372, 'val_accuracy': 0.5799256505576208, 'time': 2.1802632808685303, 'feature_dim': 1024}
+
+511. Val Acc: 57.99% | Train Acc: 57.49%
+   {'target_size': (64, 64), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5748837209302325, 'val_accuracy': 0.5799256505576208, 'time': 2.2640116214752197, 'feature_dim': 1024}
+
+512. Val Acc: 57.62% | Train Acc: 56.93%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5693023255813954, 'val_accuracy': 0.5762081784386617, 'time': 3.265066623687744, 'feature_dim': 1024}
+
+513. Val Acc: 57.62% | Train Acc: 58.51%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5851162790697675, 'val_accuracy': 0.5762081784386617, 'time': 2.0173518657684326, 'feature_dim': 1024}
+
+514. Val Acc: 57.25% | Train Acc: 57.12%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5711627906976744, 'val_accuracy': 0.5724907063197026, 'time': 0.3218259811401367, 'feature_dim': 128}
+
+515. Val Acc: 56.88% | Train Acc: 58.70%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5869767441860465, 'val_accuracy': 0.5687732342007435, 'time': 2.1794962882995605, 'feature_dim': 1024}
+
+516. Val Acc: 56.51% | Train Acc: 57.67%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5767441860465117, 'val_accuracy': 0.5650557620817844, 'time': 2.1953530311584473, 'feature_dim': 1024}
+
+517. Val Acc: 56.51% | Train Acc: 54.33%
+   {'target_size': (256, 256), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5432558139534883, 'val_accuracy': 0.5650557620817844, 'time': 0.30150485038757324, 'feature_dim': 128}
+
+518. Val Acc: 56.13% | Train Acc: 55.26%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5525581395348838, 'val_accuracy': 0.5613382899628253, 'time': 0.31192517280578613, 'feature_dim': 128}
+
+519. Val Acc: 56.13% | Train Acc: 58.60%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.586046511627907, 'val_accuracy': 0.5613382899628253, 'time': 2.325709819793701, 'feature_dim': 1024}
+
+520. Val Acc: 56.13% | Train Acc: 55.81%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5581395348837209, 'val_accuracy': 0.5613382899628253, 'time': 2.38659930229187, 'feature_dim': 1024}
+
+521. Val Acc: 55.76% | Train Acc: 58.42%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5841860465116279, 'val_accuracy': 0.5576208178438662, 'time': 2.1004045009613037, 'feature_dim': 1024}
+
+522. Val Acc: 55.39% | Train Acc: 56.28%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5627906976744186, 'val_accuracy': 0.5539033457249071, 'time': 2.128929376602173, 'feature_dim': 1024}
+
+523. Val Acc: 55.02% | Train Acc: 54.88%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5488372093023256, 'val_accuracy': 0.550185873605948, 'time': 2.011558771133423, 'feature_dim': 1024}
+
+524. Val Acc: 54.65% | Train Acc: 58.51%
+   {'target_size': (128, 128), 'n_bins': 8, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5851162790697675, 'val_accuracy': 0.5464684014869888, 'time': 2.1165170669555664, 'feature_dim': 1024}
+
+525. Val Acc: 53.90% | Train Acc: 53.12%
+   {'target_size': (64, 64), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5311627906976745, 'val_accuracy': 0.5390334572490706, 'time': 0.3271825313568115, 'feature_dim': 128}
+
+526. Val Acc: 53.90% | Train Acc: 53.12%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5311627906976745, 'val_accuracy': 0.5390334572490706, 'time': 0.3372361660003662, 'feature_dim': 128}
+
+527. Val Acc: 53.90% | Train Acc: 53.86%
+   {'target_size': (256, 256), 'n_bins': 8, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5386046511627907, 'val_accuracy': 0.5390334572490706, 'time': 2.0676064491271973, 'feature_dim': 1024}
+
+528. Val Acc: 52.42% | Train Acc: 54.42%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5441860465116279, 'val_accuracy': 0.5241635687732342, 'time': 9.117520332336426, 'feature_dim': 3456}
+
+529. Val Acc: 51.30% | Train Acc: 51.35%
+   {'target_size': (128, 128), 'n_bins': 4, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5134883720930232, 'val_accuracy': 0.5130111524163569, 'time': 0.3105602264404297, 'feature_dim': 128}
+
+530. Val Acc: 51.30% | Train Acc: 52.93%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5293023255813953, 'val_accuracy': 0.5130111524163569, 'time': 9.696508884429932, 'feature_dim': 3456}
+
+531. Val Acc: 50.93% | Train Acc: 52.09%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5209302325581395, 'val_accuracy': 0.5092936802973977, 'time': 9.797587156295776, 'feature_dim': 3456}
+
+532. Val Acc: 50.93% | Train Acc: 53.58%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5358139534883721, 'val_accuracy': 0.5092936802973977, 'time': 9.27641773223877, 'feature_dim': 3456}
+
+533. Val Acc: 50.93% | Train Acc: 52.47%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5246511627906977, 'val_accuracy': 0.5092936802973977, 'time': 9.390586376190186, 'feature_dim': 3456}
+
+534. Val Acc: 50.93% | Train Acc: 52.84%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5283720930232558, 'val_accuracy': 0.5092936802973977, 'time': 8.903223037719727, 'feature_dim': 3456}
+
+535. Val Acc: 50.19% | Train Acc: 50.70%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5069767441860465, 'val_accuracy': 0.5018587360594795, 'time': 9.22102427482605, 'feature_dim': 3456}
+
+536. Val Acc: 50.19% | Train Acc: 50.33%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5032558139534884, 'val_accuracy': 0.5018587360594795, 'time': 9.34912657737732, 'feature_dim': 3456}
+
+537. Val Acc: 49.81% | Train Acc: 50.88%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5088372093023256, 'val_accuracy': 0.49814126394052044, 'time': 26.415659189224243, 'feature_dim': 8192}
+
+538. Val Acc: 49.44% | Train Acc: 50.14%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5013953488372093, 'val_accuracy': 0.4944237918215613, 'time': 9.287582635879517, 'feature_dim': 3456}
+
+539. Val Acc: 49.44% | Train Acc: 50.98%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5097674418604651, 'val_accuracy': 0.4944237918215613, 'time': 9.220548391342163, 'feature_dim': 3456}
+
+540. Val Acc: 49.44% | Train Acc: 48.93%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.48930232558139536, 'val_accuracy': 0.4944237918215613, 'time': 25.37053155899048, 'feature_dim': 8192}
+
+541. Val Acc: 49.44% | Train Acc: 51.91%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5190697674418605, 'val_accuracy': 0.4944237918215613, 'time': 9.155826091766357, 'feature_dim': 3456}
+
+542. Val Acc: 49.07% | Train Acc: 51.72%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5172093023255814, 'val_accuracy': 0.49070631970260226, 'time': 9.273130416870117, 'feature_dim': 3456}
+
+543. Val Acc: 48.70% | Train Acc: 48.93%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.48930232558139536, 'val_accuracy': 0.48698884758364314, 'time': 9.18539571762085, 'feature_dim': 3456}
+
+544. Val Acc: 48.70% | Train Acc: 50.88%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5088372093023256, 'val_accuracy': 0.48698884758364314, 'time': 9.167993783950806, 'feature_dim': 3456}
+
+545. Val Acc: 48.70% | Train Acc: 48.65%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4865116279069767, 'val_accuracy': 0.48698884758364314, 'time': 9.502815246582031, 'feature_dim': 3456}
+
+546. Val Acc: 48.70% | Train Acc: 50.51%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5051162790697674, 'val_accuracy': 0.48698884758364314, 'time': 9.56242322921753, 'feature_dim': 3456}
+
+547. Val Acc: 47.96% | Train Acc: 50.23%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5023255813953489, 'val_accuracy': 0.4795539033457249, 'time': 10.003242492675781, 'feature_dim': 3456}
+
+548. Val Acc: 47.96% | Train Acc: 48.74%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4874418604651163, 'val_accuracy': 0.4795539033457249, 'time': 8.941147327423096, 'feature_dim': 3456}
+
+549. Val Acc: 47.96% | Train Acc: 48.28%
+   {'target_size': (64, 64), 'n_bins': 12, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4827906976744186, 'val_accuracy': 0.4795539033457249, 'time': 9.003552913665771, 'feature_dim': 3456}
+
+550. Val Acc: 47.96% | Train Acc: 47.16%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.47162790697674417, 'val_accuracy': 0.4795539033457249, 'time': 25.277019739151, 'feature_dim': 8192}
+
+551. Val Acc: 47.96% | Train Acc: 48.28%
+   {'target_size': (128, 128), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4827906976744186, 'val_accuracy': 0.4795539033457249, 'time': 9.024296998977661, 'feature_dim': 3456}
+
+552. Val Acc: 47.96% | Train Acc: 50.33%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5032558139534884, 'val_accuracy': 0.4795539033457249, 'time': 8.958702087402344, 'feature_dim': 3456}
+
+553. Val Acc: 47.21% | Train Acc: 48.74%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4874418604651163, 'val_accuracy': 0.4721189591078067, 'time': 9.140729904174805, 'feature_dim': 3456}
+
+554. Val Acc: 46.84% | Train Acc: 47.63%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4762790697674419, 'val_accuracy': 0.4684014869888476, 'time': 25.44642162322998, 'feature_dim': 8192}
+
+555. Val Acc: 46.10% | Train Acc: 45.67%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4567441860465116, 'val_accuracy': 0.46096654275092935, 'time': 25.73271942138672, 'feature_dim': 8192}
+
+556. Val Acc: 46.10% | Train Acc: 47.63%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4762790697674419, 'val_accuracy': 0.46096654275092935, 'time': 9.02397346496582, 'feature_dim': 3456}
+
+557. Val Acc: 45.72% | Train Acc: 46.98%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4697674418604651, 'val_accuracy': 0.45724907063197023, 'time': 25.971378326416016, 'feature_dim': 8192}
+
+558. Val Acc: 45.72% | Train Acc: 45.95%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4595348837209302, 'val_accuracy': 0.45724907063197023, 'time': 25.85254216194153, 'feature_dim': 8192}
+
+559. Val Acc: 45.35% | Train Acc: 44.93%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4493023255813953, 'val_accuracy': 0.45353159851301117, 'time': 25.735969305038452, 'feature_dim': 8192}
+
+560. Val Acc: 45.35% | Train Acc: 46.60%
+   {'target_size': (256, 256), 'n_bins': 12, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.466046511627907, 'val_accuracy': 0.45353159851301117, 'time': 9.290271043777466, 'feature_dim': 3456}
+
+561. Val Acc: 44.61% | Train Acc: 44.00%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.44, 'val_accuracy': 0.44609665427509293, 'time': 25.845551252365112, 'feature_dim': 8192}
+
+562. Val Acc: 44.24% | Train Acc: 44.56%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.44558139534883723, 'val_accuracy': 0.4423791821561338, 'time': 25.57810664176941, 'feature_dim': 8192}
+
+563. Val Acc: 43.49% | Train Acc: 44.09%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4409302325581395, 'val_accuracy': 0.4349442379182156, 'time': 25.698006868362427, 'feature_dim': 8192}
+
+564. Val Acc: 43.49% | Train Acc: 44.19%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4418604651162791, 'val_accuracy': 0.4349442379182156, 'time': 26.14435052871704, 'feature_dim': 8192}
+
+565. Val Acc: 43.49% | Train Acc: 43.72%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4372093023255814, 'val_accuracy': 0.4349442379182156, 'time': 25.82394504547119, 'feature_dim': 8192}
+
+566. Val Acc: 43.49% | Train Acc: 43.91%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'HSV', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4390697674418605, 'val_accuracy': 0.4349442379182156, 'time': 25.74163818359375, 'feature_dim': 8192}
+
+567. Val Acc: 42.75% | Train Acc: 43.53%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.43534883720930234, 'val_accuracy': 0.4275092936802974, 'time': 25.929919242858887, 'feature_dim': 8192}
+
+568. Val Acc: 42.01% | Train Acc: 43.07%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4306976744186046, 'val_accuracy': 0.4200743494423792, 'time': 26.24399495124817, 'feature_dim': 8192}
+
+569. Val Acc: 40.89% | Train Acc: 42.23%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4223255813953488, 'val_accuracy': 0.40892193308550184, 'time': 26.055158376693726, 'feature_dim': 8192}
+
+570. Val Acc: 40.52% | Train Acc: 41.12%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4111627906976744, 'val_accuracy': 0.4052044609665427, 'time': 25.546741724014282, 'feature_dim': 8192}
+
+571. Val Acc: 39.78% | Train Acc: 42.60%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 100, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.42604651162790697, 'val_accuracy': 0.39776951672862454, 'time': 26.431196928024292, 'feature_dim': 8192}
+
+572. Val Acc: 39.78% | Train Acc: 41.21%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 200, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.41209302325581393, 'val_accuracy': 0.39776951672862454, 'time': 26.586416959762573, 'feature_dim': 8192}
+
+573. Val Acc: 39.41% | Train Acc: 41.58%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4158139534883721, 'val_accuracy': 0.3940520446096654, 'time': 25.760809421539307, 'feature_dim': 8192}
+
+574. Val Acc: 39.41% | Train Acc: 40.74%
+   {'target_size': (256, 256), 'n_bins': 16, 'threshold': 150, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.40744186046511627, 'val_accuracy': 0.3940520446096654, 'time': 28.606462001800537, 'feature_dim': 8192}
+
+575. Val Acc: 38.66% | Train Acc: 41.40%
+   {'target_size': (128, 128), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.413953488372093, 'val_accuracy': 0.38661710037174724, 'time': 27.136258363723755, 'feature_dim': 8192}
+
+576. Val Acc: 37.92% | Train Acc: 40.93%
+   {'target_size': (64, 64), 'n_bins': 16, 'threshold': 50, 'color_space': 'BGR', 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.40930232558139534, 'val_accuracy': 0.379182156133829, 'time': 26.196290493011475, 'feature_dim': 8192}

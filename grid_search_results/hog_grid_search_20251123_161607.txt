@@ -1,0 +1,1001 @@
+GRID SEARCH RESULTS - HOG FEATURES
+================================================================================
+
+Date: 2025-11-23 16:16:07
+Total combinations tested: 324
+
+BEST CONFIGURATION:
+--------------------------------------------------------------------------------
+Validation Accuracy: 86.99%
+Train Accuracy: 100.00%
+
+Feature Extraction Parameters:
+  target_size: (64, 64)
+  orientations: 6
+  pixels_per_cell: (8, 8)
+  cells_per_block: (3, 3)
+
+SVM Parameters:
+  kernel: rbf
+  C: 10
+  gamma: scale
+
+Other Info:
+  Feature dimension: 1944
+  Time: 2.90s
+
+
+ALL RESULTS (sorted by validation accuracy):
+--------------------------------------------------------------------------------
+
+1. Val Acc: 86.99% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8698884758364313, 'time': 2.897873878479004, 'feature_dim': 1944}
+
+2. Val Acc: 86.99% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8698884758364313, 'time': 2.500943183898926, 'feature_dim': 1764}
+
+3. Val Acc: 86.99% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8698884758364313, 'time': 4.872949123382568, 'feature_dim': 2916}
+
+4. Val Acc: 86.62% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8661710037174721, 'time': 7.007203578948975, 'feature_dim': 3888}
+
+5. Val Acc: 86.25% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.862453531598513, 'time': 1.4553217887878418, 'feature_dim': 1176}
+
+6. Val Acc: 86.25% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.862453531598513, 'time': 11.037492036819458, 'feature_dim': 5400}
+
+7. Val Acc: 86.25% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.862453531598513, 'time': 2.4190521240234375, 'feature_dim': 1764}
+
+8. Val Acc: 86.25% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.862453531598513, 'time': 3.512053966522217, 'feature_dim': 2352}
+
+9. Val Acc: 85.87% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8587360594795539, 'time': 10.969781637191772, 'feature_dim': 5400}
+
+10. Val Acc: 85.87% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8587360594795539, 'time': 24.633128881454468, 'feature_dim': 10584}
+
+11. Val Acc: 85.87% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8587360594795539, 'time': 5.152834892272949, 'feature_dim': 2916}
+
+12. Val Acc: 85.87% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8587360594795539, 'time': 1.4141006469726562, 'feature_dim': 1176}
+
+13. Val Acc: 85.87% | Train Acc: 99.26%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.8587360594795539, 'time': 3.3796164989471436, 'feature_dim': 2352}
+
+14. Val Acc: 85.87% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8587360594795539, 'time': 38.29651427268982, 'feature_dim': 15876}
+
+15. Val Acc: 85.50% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8550185873605948, 'time': 0.5114660263061523, 'feature_dim': 324}
+
+16. Val Acc: 85.50% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8550185873605948, 'time': 3.7797484397888184, 'feature_dim': 2352}
+
+17. Val Acc: 85.50% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8550185873605948, 'time': 7.456438064575195, 'feature_dim': 3888}
+
+18. Val Acc: 85.50% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8550185873605948, 'time': 0.6190433502197266, 'feature_dim': 432}
+
+19. Val Acc: 85.50% | Train Acc: 99.63%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.8550185873605948, 'time': 27.100345849990845, 'feature_dim': 10584}
+
+20. Val Acc: 85.50% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8550185873605948, 'time': 18.024847745895386, 'feature_dim': 8100}
+
+21. Val Acc: 85.50% | Train Acc: 99.07%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9906976744186047, 'val_accuracy': 0.8550185873605948, 'time': 4.677495002746582, 'feature_dim': 2916}
+
+22. Val Acc: 85.13% | Train Acc: 99.44%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.8513011152416357, 'time': 2.41813325881958, 'feature_dim': 1764}
+
+23. Val Acc: 85.13% | Train Acc: 95.26%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9525581395348838, 'val_accuracy': 0.8513011152416357, 'time': 0.4867899417877197, 'feature_dim': 324}
+
+24. Val Acc: 85.13% | Train Acc: 96.37%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9637209302325581, 'val_accuracy': 0.8513011152416357, 'time': 0.6028306484222412, 'feature_dim': 432}
+
+25. Val Acc: 85.13% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8513011152416357, 'time': 0.6355688571929932, 'feature_dim': 432}
+
+26. Val Acc: 85.13% | Train Acc: 98.60%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.986046511627907, 'val_accuracy': 0.8513011152416357, 'time': 2.6044347286224365, 'feature_dim': 1944}
+
+27. Val Acc: 85.13% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8513011152416357, 'time': 2.679931879043579, 'feature_dim': 1944}
+
+28. Val Acc: 85.13% | Train Acc: 99.35%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.8513011152416357, 'time': 2.355311155319214, 'feature_dim': 1764}
+
+29. Val Acc: 85.13% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8513011152416357, 'time': 11.415642976760864, 'feature_dim': 5400}
+
+30. Val Acc: 85.13% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8513011152416357, 'time': 18.616979837417603, 'feature_dim': 8100}
+
+31. Val Acc: 85.13% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8513011152416357, 'time': 26.8968985080719, 'feature_dim': 10800}
+
+32. Val Acc: 84.76% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.8475836431226765, 'time': 24.642340898513794, 'feature_dim': 10584}
+
+33. Val Acc: 84.76% | Train Acc: 98.98%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9897674418604652, 'val_accuracy': 0.8475836431226765, 'time': 2.784985303878784, 'feature_dim': 1944}
+
+34. Val Acc: 84.76% | Train Acc: 99.44%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9944186046511628, 'val_accuracy': 0.8475836431226765, 'time': 10.839808464050293, 'feature_dim': 5400}
+
+35. Val Acc: 84.76% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8475836431226765, 'time': 36.57755947113037, 'feature_dim': 15876}
+
+36. Val Acc: 84.76% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8475836431226765, 'time': 25.65642237663269, 'feature_dim': 10800}
+
+37. Val Acc: 84.76% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8475836431226765, 'time': 49.30385446548462, 'feature_dim': 21168}
+
+38. Val Acc: 84.76% | Train Acc: 99.16%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9916279069767442, 'val_accuracy': 0.8475836431226765, 'time': 6.893831014633179, 'feature_dim': 3888}
+
+39. Val Acc: 84.76% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8475836431226765, 'time': 54.56773281097412, 'feature_dim': 21168}
+
+40. Val Acc: 84.39% | Train Acc: 99.26%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9925581395348837, 'val_accuracy': 0.8438661710037175, 'time': 1.4648377895355225, 'feature_dim': 1176}
+
+41. Val Acc: 84.39% | Train Acc: 99.07%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9906976744186047, 'val_accuracy': 0.8438661710037175, 'time': 4.899163484573364, 'feature_dim': 2916}
+
+42. Val Acc: 84.39% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8438661710037175, 'time': 49.77655363082886, 'feature_dim': 21168}
+
+43. Val Acc: 84.39% | Train Acc: 99.35%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9934883720930232, 'val_accuracy': 0.8438661710037175, 'time': 3.6521947383880615, 'feature_dim': 2352}
+
+44. Val Acc: 84.39% | Train Acc: 99.53%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9953488372093023, 'val_accuracy': 0.8438661710037175, 'time': 7.230908155441284, 'feature_dim': 3888}
+
+45. Val Acc: 84.39% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8438661710037175, 'time': 27.982253313064575, 'feature_dim': 10584}
+
+46. Val Acc: 84.39% | Train Acc: 98.70%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9869767441860465, 'val_accuracy': 0.8438661710037175, 'time': 1.392035961151123, 'feature_dim': 1176}
+
+47. Val Acc: 84.39% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.8438661710037175, 'time': 36.31637763977051, 'feature_dim': 15876}
+
+48. Val Acc: 84.39% | Train Acc: 99.53%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9953488372093023, 'val_accuracy': 0.8438661710037175, 'time': 10.73157811164856, 'feature_dim': 5400}
+
+49. Val Acc: 84.39% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.8438661710037175, 'time': 24.886173486709595, 'feature_dim': 10584}
+
+50. Val Acc: 84.39% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.8438661710037175, 'time': 18.220511198043823, 'feature_dim': 8100}
+
+51. Val Acc: 84.39% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.8438661710037175, 'time': 37.11934566497803, 'feature_dim': 15876}
+
+52. Val Acc: 84.39% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.8438661710037175, 'time': 26.96886157989502, 'feature_dim': 10800}
+
+53. Val Acc: 84.01% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.8401486988847584, 'time': 38.68994903564453, 'feature_dim': 15876}
+
+54. Val Acc: 84.01% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8401486988847584, 'time': 39.37394714355469, 'feature_dim': 15876}
+
+55. Val Acc: 84.01% | Train Acc: 95.81%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.958139534883721, 'val_accuracy': 0.8401486988847584, 'time': 0.5002310276031494, 'feature_dim': 324}
+
+56. Val Acc: 84.01% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8401486988847584, 'time': 25.577027320861816, 'feature_dim': 10584}
+
+57. Val Acc: 84.01% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8401486988847584, 'time': 85.20979380607605, 'feature_dim': 34596}
+
+58. Val Acc: 84.01% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.8401486988847584, 'time': 52.40748310089111, 'feature_dim': 21168}
+
+59. Val Acc: 83.64% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8364312267657993, 'time': 0.5555033683776855, 'feature_dim': 324}
+
+60. Val Acc: 83.64% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8364312267657993, 'time': 9.502493143081665, 'feature_dim': 10800}
+
+61. Val Acc: 83.64% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8364312267657993, 'time': 9.392228364944458, 'feature_dim': 10800}
+
+62. Val Acc: 83.64% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8364312267657993, 'time': 9.616324663162231, 'feature_dim': 10800}
+
+63. Val Acc: 83.64% | Train Acc: 96.37%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9637209302325581, 'val_accuracy': 0.8364312267657993, 'time': 0.6102776527404785, 'feature_dim': 432}
+
+64. Val Acc: 83.64% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.8364312267657993, 'time': 17.703824281692505, 'feature_dim': 8100}
+
+65. Val Acc: 83.64% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.8364312267657993, 'time': 48.9200222492218, 'feature_dim': 21168}
+
+66. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 18.581339120864868, 'feature_dim': 8100}
+
+67. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 1.061309576034546, 'feature_dim': 1764}
+
+68. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 1.0502054691314697, 'feature_dim': 1764}
+
+69. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 1.0540306568145752, 'feature_dim': 1764}
+
+70. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 26.224431037902832, 'feature_dim': 10800}
+
+71. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 1.5386488437652588, 'feature_dim': 2352}
+
+72. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 1.5249600410461426, 'feature_dim': 2352}
+
+73. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 1.5414104461669922, 'feature_dim': 2352}
+
+74. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 56.48231363296509, 'feature_dim': 23064}
+
+75. Val Acc: 83.27% | Train Acc: 99.91%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.8327137546468402, 'time': 25.66693687438965, 'feature_dim': 10800}
+
+76. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 56.93380856513977, 'feature_dim': 23064}
+
+77. Val Acc: 83.27% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8327137546468402, 'time': 121.83644247055054, 'feature_dim': 46128}
+
+78. Val Acc: 82.90% | Train Acc: 99.72%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.828996282527881, 'time': 10.879276037216187, 'feature_dim': 5400}
+
+79. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 0.3777651786804199, 'feature_dim': 216}
+
+80. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 17.83981156349182, 'feature_dim': 8100}
+
+81. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 13.705563306808472, 'feature_dim': 15876}
+
+82. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 13.561294317245483, 'feature_dim': 15876}
+
+83. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 13.149467706680298, 'feature_dim': 15876}
+
+84. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 117.9614794254303, 'feature_dim': 46128}
+
+85. Val Acc: 82.90% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.828996282527881, 'time': 122.74852967262268, 'feature_dim': 48600}
+
+86. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 134.34309244155884, 'feature_dim': 48600}
+
+87. Val Acc: 82.90% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.828996282527881, 'time': 195.54357957839966, 'feature_dim': 72900}
+
+88. Val Acc: 82.53% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8252788104089219, 'time': 11.292009115219116, 'feature_dim': 8100}
+
+89. Val Acc: 82.53% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8252788104089219, 'time': 11.39444875717163, 'feature_dim': 8100}
+
+90. Val Acc: 82.53% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8252788104089219, 'time': 11.1378653049469, 'feature_dim': 8100}
+
+91. Val Acc: 82.53% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8252788104089219, 'time': 125.98950362205505, 'feature_dim': 48600}
+
+92. Val Acc: 82.53% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.8252788104089219, 'time': 56.64200568199158, 'feature_dim': 23064}
+
+93. Val Acc: 82.53% | Train Acc: 99.81%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.8252788104089219, 'time': 85.8684606552124, 'feature_dim': 34596}
+
+94. Val Acc: 82.16% | Train Acc: 94.70%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9469767441860465, 'val_accuracy': 0.8215613382899628, 'time': 0.3570902347564697, 'feature_dim': 216}
+
+95. Val Acc: 82.16% | Train Acc: 99.81%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.8215613382899628, 'time': 26.295421600341797, 'feature_dim': 10800}
+
+96. Val Acc: 82.16% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.8215613382899628, 'time': 49.70466899871826, 'feature_dim': 21168}
+
+97. Val Acc: 82.16% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8215613382899628, 'time': 17.844818353652954, 'feature_dim': 21168}
+
+98. Val Acc: 82.16% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8215613382899628, 'time': 17.720879316329956, 'feature_dim': 21168}
+
+99. Val Acc: 82.16% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8215613382899628, 'time': 18.123960256576538, 'feature_dim': 21168}
+
+100. Val Acc: 82.16% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8215613382899628, 'time': 8.884541034698486, 'feature_dim': 10800}
+
+101. Val Acc: 82.16% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8215613382899628, 'time': 8.482732772827148, 'feature_dim': 10800}
+
+102. Val Acc: 82.16% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8215613382899628, 'time': 8.756563425064087, 'feature_dim': 10800}
+
+103. Val Acc: 82.16% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.8215613382899628, 'time': 201.41342115402222, 'feature_dim': 72900}
+
+104. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 8.15579342842102, 'feature_dim': 10584}
+
+105. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 8.319311618804932, 'feature_dim': 10584}
+
+106. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 8.083357095718384, 'feature_dim': 10584}
+
+107. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 20.917276620864868, 'feature_dim': 23064}
+
+108. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 20.67785143852234, 'feature_dim': 23064}
+
+109. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 20.76957106590271, 'feature_dim': 23064}
+
+110. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 20.556111335754395, 'feature_dim': 23064}
+
+111. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 20.321946144104004, 'feature_dim': 23064}
+
+112. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 20.346423625946045, 'feature_dim': 23064}
+
+113. Val Acc: 81.78% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.8178438661710037, 'time': 123.10978531837463, 'feature_dim': 46128}
+
+114. Val Acc: 81.78% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.8178438661710037, 'time': 267.72901725769043, 'feature_dim': 97200}
+
+115. Val Acc: 81.78% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8178438661710037, 'time': 274.50271821022034, 'feature_dim': 97200}
+
+116. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 6.009405851364136, 'feature_dim': 5400}
+
+117. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 6.141242980957031, 'feature_dim': 5400}
+
+118. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 6.2754621505737305, 'feature_dim': 5400}
+
+119. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 45.84849977493286, 'feature_dim': 48600}
+
+120. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 45.57618713378906, 'feature_dim': 48600}
+
+121. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 44.939812421798706, 'feature_dim': 48600}
+
+122. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 192.69293665885925, 'feature_dim': 72900}
+
+123. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 10.440249919891357, 'feature_dim': 8100}
+
+124. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 10.448146104812622, 'feature_dim': 8100}
+
+125. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 10.470892906188965, 'feature_dim': 8100}
+
+126. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 267.96917843818665, 'feature_dim': 190512}
+
+127. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 267.299688577652, 'feature_dim': 190512}
+
+128. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 268.9414415359497, 'feature_dim': 190512}
+
+129. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 44.556615352630615, 'feature_dim': 46128}
+
+130. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 44.53958320617676, 'feature_dim': 46128}
+
+131. Val Acc: 81.41% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8141263940520446, 'time': 44.3313364982605, 'feature_dim': 46128}
+
+132. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 1.0449028015136719, 'feature_dim': 1944}
+
+133. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 1.0458924770355225, 'feature_dim': 1944}
+
+134. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 1.0202085971832275, 'feature_dim': 1944}
+
+135. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 0.6153881549835205, 'feature_dim': 1176}
+
+136. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 0.6097733974456787, 'feature_dim': 1176}
+
+137. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 0.6018922328948975, 'feature_dim': 1176}
+
+138. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 85.1773624420166, 'feature_dim': 34596}
+
+139. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 65.76031732559204, 'feature_dim': 72900}
+
+140. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 65.99535870552063, 'feature_dim': 72900}
+
+141. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 66.27655529975891, 'feature_dim': 72900}
+
+142. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 0.9782555103302002, 'feature_dim': 1764}
+
+143. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 0.9741394519805908, 'feature_dim': 1764}
+
+144. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 0.9579370021820068, 'feature_dim': 1764}
+
+145. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 43.602071046829224, 'feature_dim': 46128}
+
+146. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 43.66400647163391, 'feature_dim': 46128}
+
+147. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 43.75705695152283, 'feature_dim': 46128}
+
+148. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 265.83695697784424, 'feature_dim': 97200}
+
+149. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 98.24602270126343, 'feature_dim': 97200}
+
+150. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 98.02376914024353, 'feature_dim': 97200}
+
+151. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 98.17364144325256, 'feature_dim': 97200}
+
+152. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 17.028923749923706, 'feature_dim': 21168}
+
+153. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 16.732563734054565, 'feature_dim': 21168}
+
+154. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 16.95515489578247, 'feature_dim': 21168}
+
+155. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 1.433044672012329, 'feature_dim': 2352}
+
+156. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 1.4094369411468506, 'feature_dim': 2352}
+
+157. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 1.404041051864624, 'feature_dim': 2352}
+
+158. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 421.6289417743683, 'feature_dim': 311364}
+
+159. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 418.4909839630127, 'feature_dim': 311364}
+
+160. Val Acc: 81.04% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8104089219330854, 'time': 419.99817848205566, 'feature_dim': 311364}
+
+161. Val Acc: 80.67% | Train Acc: 94.79%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.947906976744186, 'val_accuracy': 0.8066914498141264, 'time': 0.35588669776916504, 'feature_dim': 216}
+
+162. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 0.39745092391967773, 'feature_dim': 216}
+
+163. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 1.8745501041412354, 'feature_dim': 2916}
+
+164. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 1.8787040710449219, 'feature_dim': 2916}
+
+165. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 1.8849084377288818, 'feature_dim': 2916}
+
+166. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 32.51347374916077, 'feature_dim': 34596}
+
+167. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 33.01230216026306, 'feature_dim': 34596}
+
+168. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 32.79329228401184, 'feature_dim': 34596}
+
+169. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 63.473140716552734, 'feature_dim': 72900}
+
+170. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 64.0718936920166, 'feature_dim': 72900}
+
+171. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 63.47524929046631, 'feature_dim': 72900}
+
+172. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 10.665889501571655, 'feature_dim': 8100}
+
+173. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 10.490936040878296, 'feature_dim': 8100}
+
+174. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 10.639820337295532, 'feature_dim': 8100}
+
+175. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 12.958891153335571, 'feature_dim': 15876}
+
+176. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 12.369518280029297, 'feature_dim': 15876}
+
+177. Val Acc: 80.67% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8066914498141264, 'time': 12.352693796157837, 'feature_dim': 15876}
+
+178. Val Acc: 80.30% | Train Acc: 99.63%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.8029739776951673, 'time': 123.98459529876709, 'feature_dim': 48600}
+
+179. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 267.78712368011475, 'feature_dim': 95256}
+
+180. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 102.6725263595581, 'feature_dim': 95256}
+
+181. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 101.46479868888855, 'feature_dim': 95256}
+
+182. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 100.9026141166687, 'feature_dim': 95256}
+
+183. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 43.059932470321655, 'feature_dim': 48600}
+
+184. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 41.91851043701172, 'feature_dim': 48600}
+
+185. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 43.093668937683105, 'feature_dim': 48600}
+
+186. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 577.8408868312836, 'feature_dim': 415152}
+
+187. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 578.7256541252136, 'feature_dim': 415152}
+
+188. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 579.7520632743835, 'feature_dim': 415152}
+
+189. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 93.4542453289032, 'feature_dim': 97200}
+
+190. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 93.3829095363617, 'feature_dim': 97200}
+
+191. Val Acc: 80.30% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.8029739776951673, 'time': 93.74534869194031, 'feature_dim': 97200}
+
+192. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 0.6350164413452148, 'feature_dim': 1176}
+
+193. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 0.6395187377929688, 'feature_dim': 1176}
+
+194. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 0.6352696418762207, 'feature_dim': 1176}
+
+195. Val Acc: 79.93% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7992565055762082, 'time': 56.58535933494568, 'feature_dim': 23064}
+
+196. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 8.472327947616577, 'feature_dim': 10584}
+
+197. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 8.350034952163696, 'feature_dim': 10584}
+
+198. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 8.270721197128296, 'feature_dim': 10584}
+
+199. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 627.8695514202118, 'feature_dim': 207576}
+
+200. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 168.71349930763245, 'feature_dim': 142884}
+
+201. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 166.4970986843109, 'feature_dim': 142884}
+
+202. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 168.57798266410828, 'feature_dim': 142884}
+
+203. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 31.405114889144897, 'feature_dim': 34596}
+
+204. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 31.53114938735962, 'feature_dim': 34596}
+
+205. Val Acc: 79.93% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7992565055762082, 'time': 31.462624311447144, 'feature_dim': 34596}
+
+206. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 5.93803071975708, 'feature_dim': 5400}
+
+207. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 5.986911296844482, 'feature_dim': 5400}
+
+208. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 5.747695207595825, 'feature_dim': 5400}
+
+209. Val Acc: 79.55% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7955390334572491, 'time': 84.66956377029419, 'feature_dim': 34596}
+
+210. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 12.182711601257324, 'feature_dim': 15876}
+
+211. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 11.925305366516113, 'feature_dim': 15876}
+
+212. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 12.265740871429443, 'feature_dim': 15876}
+
+213. Val Acc: 79.55% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.7955390334572491, 'time': 265.66134452819824, 'feature_dim': 97200}
+
+214. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 279.70401883125305, 'feature_dim': 207576}
+
+215. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 279.4578197002411, 'feature_dim': 207576}
+
+216. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 279.93402791023254, 'feature_dim': 207576}
+
+217. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 10.00719404220581, 'feature_dim': 10800}
+
+218. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 9.128861665725708, 'feature_dim': 10800}
+
+219. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 9.349653720855713, 'feature_dim': 10800}
+
+220. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 18.86602282524109, 'feature_dim': 21168}
+
+221. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 17.372796773910522, 'feature_dim': 21168}
+
+222. Val Acc: 79.55% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7955390334572491, 'time': 18.360844373703003, 'feature_dim': 21168}
+
+223. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 2.86328387260437, 'feature_dim': 3888}
+
+224. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 2.9446849822998047, 'feature_dim': 3888}
+
+225. Val Acc: 79.18% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.79182156133829, 'time': 2.991377830505371, 'feature_dim': 3888}
+
+226. Val Acc: 79.18% | Train Acc: 99.81%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.998139534883721, 'val_accuracy': 0.79182156133829, 'time': 192.67334461212158, 'feature_dim': 72900}
+
+227. Val Acc: 79.18% | Train Acc: 99.72%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.79182156133829, 'time': 118.37175488471985, 'feature_dim': 46128}
+
+228. Val Acc: 79.18% | Train Acc: 99.63%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9962790697674418, 'val_accuracy': 0.79182156133829, 'time': 266.1123700141907, 'feature_dim': 95256}
+
+229. Val Acc: 79.18% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.79182156133829, 'time': 625.9986517429352, 'feature_dim': 207576}
+
+230. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 0.9789853096008301, 'feature_dim': 1944}
+
+231. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 0.992851972579956, 'feature_dim': 1944}
+
+232. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 0.9990823268890381, 'feature_dim': 1944}
+
+233. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 1.67680025100708, 'feature_dim': 2916}
+
+234. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 1.6977849006652832, 'feature_dim': 2916}
+
+235. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 1.6550624370574951, 'feature_dim': 2916}
+
+236. Val Acc: 78.81% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7881040892193308, 'time': 413.21541023254395, 'feature_dim': 142884}
+
+237. Val Acc: 78.44% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7843866171003717, 'time': 410.3907973766327, 'feature_dim': 142884}
+
+238. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 972.4264628887177, 'feature_dim': 311364}
+
+239. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 592.5508062839508, 'feature_dim': 190512}
+
+240. Val Acc: 78.44% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 10, 'gamma': 'scale', 'train_accuracy': 1.0, 'val_accuracy': 0.7843866171003717, 'time': 1291.2201001644135, 'feature_dim': 415152}
+
+241. Val Acc: 78.07% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7806691449814126, 'time': 2.7928130626678467, 'feature_dim': 3888}
+
+242. Val Acc: 78.07% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7806691449814126, 'time': 2.8752031326293945, 'feature_dim': 3888}
+
+243. Val Acc: 78.07% | Train Acc: 100.00%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7806691449814126, 'time': 2.85306453704834, 'feature_dim': 3888}
+
+244. Val Acc: 77.32% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7732342007434945, 'time': 973.9488155841827, 'feature_dim': 311364}
+
+245. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 6.097253322601318, 'feature_dim': 5400}
+
+246. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 6.1473493576049805, 'feature_dim': 5400}
+
+247. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 6.322750091552734, 'feature_dim': 5400}
+
+248. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 8.64208984375, 'feature_dim': 10584}
+
+249. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 8.098396301269531, 'feature_dim': 10584}
+
+250. Val Acc: 76.95% | Train Acc: 100.00%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7695167286245354, 'time': 8.038162231445312, 'feature_dim': 10584}
+
+251. Val Acc: 76.95% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7695167286245354, 'time': 1279.55371260643, 'feature_dim': 415152}
+
+252. Val Acc: 76.21% | Train Acc: 99.72%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 1, 'gamma': 'scale', 'train_accuracy': 0.9972093023255814, 'val_accuracy': 0.7620817843866171, 'time': 587.9192805290222, 'feature_dim': 190512}
+
+253. Val Acc: 75.46% | Train Acc: 96.28%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9627906976744186, 'val_accuracy': 0.7546468401486989, 'time': 0.20473170280456543, 'feature_dim': 324}
+
+254. Val Acc: 73.61% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7360594795539034, 'time': 0.2513589859008789, 'feature_dim': 324}
+
+255. Val Acc: 73.61% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7360594795539034, 'time': 0.2512366771697998, 'feature_dim': 324}
+
+256. Val Acc: 72.86% | Train Acc: 97.40%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9739534883720931, 'val_accuracy': 0.7286245353159851, 'time': 0.3556981086730957, 'feature_dim': 216}
+
+257. Val Acc: 72.86% | Train Acc: 99.91%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9990697674418605, 'val_accuracy': 0.7286245353159851, 'time': 0.6732277870178223, 'feature_dim': 216}
+
+258. Val Acc: 72.86% | Train Acc: 88.74%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.8874418604651163, 'val_accuracy': 0.7286245353159851, 'time': 0.14972782135009766, 'feature_dim': 216}
+
+259. Val Acc: 72.86% | Train Acc: 94.33%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9432558139534883, 'val_accuracy': 0.7286245353159851, 'time': 0.19073843955993652, 'feature_dim': 324}
+
+260. Val Acc: 72.49% | Train Acc: 99.16%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9916279069767442, 'val_accuracy': 0.724907063197026, 'time': 0.26079487800598145, 'feature_dim': 432}
+
+261. Val Acc: 72.12% | Train Acc: 90.88%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9088372093023256, 'val_accuracy': 0.7211895910780669, 'time': 0.15104365348815918, 'feature_dim': 216}
+
+262. Val Acc: 71.75% | Train Acc: 92.56%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9255813953488372, 'val_accuracy': 0.7174721189591078, 'time': 0.4533216953277588, 'feature_dim': 216}
+
+263. Val Acc: 71.00% | Train Acc: 97.40%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 0.9739534883720931, 'val_accuracy': 0.7100371747211895, 'time': 1.9169092178344727, 'feature_dim': 216}
+
+264. Val Acc: 71.00% | Train Acc: 98.33%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 0.1, 'gamma': None, 'train_accuracy': 0.9832558139534884, 'val_accuracy': 0.7100371747211895, 'time': 0.25043416023254395, 'feature_dim': 432}
+
+265. Val Acc: 70.26% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7026022304832714, 'time': 0.25826215744018555, 'feature_dim': 432}
+
+266. Val Acc: 70.26% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7026022304832714, 'time': 0.258195161819458, 'feature_dim': 432}
+
+267. Val Acc: 70.26% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7026022304832714, 'time': 0.2891824245452881, 'feature_dim': 432}
+
+268. Val Acc: 70.26% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.7026022304832714, 'time': 0.2891659736633301, 'feature_dim': 432}
+
+269. Val Acc: 69.89% | Train Acc: 98.70%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 1, 'gamma': None, 'train_accuracy': 0.9869767441860465, 'val_accuracy': 0.6988847583643123, 'time': 0.2994699478149414, 'feature_dim': 324}
+
+270. Val Acc: 69.14% | Train Acc: 100.00%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'linear', 'C': 10, 'gamma': None, 'train_accuracy': 1.0, 'val_accuracy': 0.6914498141263941, 'time': 0.3726654052734375, 'feature_dim': 324}
+
+271. Val Acc: 66.91% | Train Acc: 67.26%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6725581395348837, 'val_accuracy': 0.6691449814126395, 'time': 0.43291306495666504, 'feature_dim': 216}
+
+272. Val Acc: 65.43% | Train Acc: 69.21%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6920930232558139, 'val_accuracy': 0.654275092936803, 'time': 1.6717569828033447, 'feature_dim': 1176}
+
+273. Val Acc: 65.06% | Train Acc: 70.14%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.7013953488372093, 'val_accuracy': 0.6505576208178439, 'time': 0.6073055267333984, 'feature_dim': 324}
+
+274. Val Acc: 65.06% | Train Acc: 68.65%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6865116279069767, 'val_accuracy': 0.6505576208178439, 'time': 0.7276084423065186, 'feature_dim': 432}
+
+275. Val Acc: 64.31% | Train Acc: 66.98%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6697674418604651, 'val_accuracy': 0.6431226765799256, 'time': 0.44893503189086914, 'feature_dim': 216}
+
+276. Val Acc: 63.94% | Train Acc: 68.56%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6855813953488372, 'val_accuracy': 0.6394052044609665, 'time': 3.3074722290039062, 'feature_dim': 1944}
+
+277. Val Acc: 63.57% | Train Acc: 66.42%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6641860465116279, 'val_accuracy': 0.6356877323420075, 'time': 0.7020108699798584, 'feature_dim': 432}
+
+278. Val Acc: 63.20% | Train Acc: 67.53%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6753488372093023, 'val_accuracy': 0.6319702602230484, 'time': 0.5906875133514404, 'feature_dim': 324}
+
+279. Val Acc: 62.08% | Train Acc: 65.86%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6586046511627907, 'val_accuracy': 0.620817843866171, 'time': 3.4464457035064697, 'feature_dim': 1944}
+
+280. Val Acc: 61.71% | Train Acc: 65.40%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.653953488372093, 'val_accuracy': 0.6171003717472119, 'time': 1.6611714363098145, 'feature_dim': 1176}
+
+281. Val Acc: 61.71% | Train Acc: 67.91%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6790697674418604, 'val_accuracy': 0.6171003717472119, 'time': 4.217741966247559, 'feature_dim': 2352}
+
+282. Val Acc: 61.34% | Train Acc: 64.74%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6474418604651163, 'val_accuracy': 0.6133828996282528, 'time': 5.7738494873046875, 'feature_dim': 2916}
+
+283. Val Acc: 61.34% | Train Acc: 67.44%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6744186046511628, 'val_accuracy': 0.6133828996282528, 'time': 5.784246921539307, 'feature_dim': 2916}
+
+284. Val Acc: 61.34% | Train Acc: 66.05%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6604651162790698, 'val_accuracy': 0.6133828996282528, 'time': 8.006129503250122, 'feature_dim': 3888}
+
+285. Val Acc: 60.97% | Train Acc: 67.91%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6790697674418604, 'val_accuracy': 0.6096654275092936, 'time': 2.9891278743743896, 'feature_dim': 1764}
+
+286. Val Acc: 60.22% | Train Acc: 64.09%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6409302325581395, 'val_accuracy': 0.6022304832713755, 'time': 2.7506513595581055, 'feature_dim': 1764}
+
+287. Val Acc: 58.74% | Train Acc: 63.07%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6306976744186047, 'val_accuracy': 0.587360594795539, 'time': 8.384483098983765, 'feature_dim': 3888}
+
+288. Val Acc: 57.99% | Train Acc: 62.60%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.626046511627907, 'val_accuracy': 0.5799256505576208, 'time': 4.149287939071655, 'feature_dim': 2352}
+
+289. Val Acc: 56.13% | Train Acc: 61.02%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6102325581395349, 'val_accuracy': 0.5613382899628253, 'time': 12.41075348854065, 'feature_dim': 5400}
+
+290. Val Acc: 55.39% | Train Acc: 63.07%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6306976744186047, 'val_accuracy': 0.5539033457249071, 'time': 27.47860074043274, 'feature_dim': 10584}
+
+291. Val Acc: 55.39% | Train Acc: 61.95%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6195348837209302, 'val_accuracy': 0.5539033457249071, 'time': 40.38418221473694, 'feature_dim': 15876}
+
+292. Val Acc: 55.02% | Train Acc: 60.00%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6, 'val_accuracy': 0.550185873605948, 'time': 12.18600606918335, 'feature_dim': 5400}
+
+293. Val Acc: 53.90% | Train Acc: 58.42%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5841860465116279, 'val_accuracy': 0.5390334572490706, 'time': 30.46913719177246, 'feature_dim': 10584}
+
+294. Val Acc: 53.53% | Train Acc: 60.65%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.6065116279069768, 'val_accuracy': 0.5353159851301115, 'time': 56.56601810455322, 'feature_dim': 21168}
+
+295. Val Acc: 53.16% | Train Acc: 53.95%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5395348837209303, 'val_accuracy': 0.5315985130111525, 'time': 26.949445486068726, 'feature_dim': 10584}
+
+296. Val Acc: 53.16% | Train Acc: 58.60%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.586046511627907, 'val_accuracy': 0.5315985130111525, 'time': 39.718379974365234, 'feature_dim': 15876}
+
+297. Val Acc: 53.16% | Train Acc: 58.79%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.587906976744186, 'val_accuracy': 0.5315985130111525, 'time': 20.444028615951538, 'feature_dim': 8100}
+
+298. Val Acc: 52.42% | Train Acc: 55.81%
+   {'target_size': (64, 64), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5581395348837209, 'val_accuracy': 0.5241635687732342, 'time': 11.851912260055542, 'feature_dim': 5400}
+
+299. Val Acc: 52.42% | Train Acc: 54.51%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5451162790697675, 'val_accuracy': 0.5241635687732342, 'time': 43.69848418235779, 'feature_dim': 15876}
+
+300. Val Acc: 52.42% | Train Acc: 53.95%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5395348837209303, 'val_accuracy': 0.5241635687732342, 'time': 53.01560664176941, 'feature_dim': 21168}
+
+301. Val Acc: 52.42% | Train Acc: 58.14%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5813953488372093, 'val_accuracy': 0.5241635687732342, 'time': 19.211435079574585, 'feature_dim': 8100}
+
+302. Val Acc: 52.42% | Train Acc: 57.21%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5720930232558139, 'val_accuracy': 0.5241635687732342, 'time': 52.64420986175537, 'feature_dim': 21168}
+
+303. Val Acc: 51.67% | Train Acc: 57.58%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (16, 16), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.575813953488372, 'val_accuracy': 0.516728624535316, 'time': 28.831961393356323, 'feature_dim': 10800}
+
+304. Val Acc: 51.30% | Train Acc: 54.05%
+   {'target_size': (64, 64), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5404651162790698, 'val_accuracy': 0.5130111524163569, 'time': 27.917948484420776, 'feature_dim': 10800}
+
+305. Val Acc: 50.93% | Train Acc: 54.33%
+   {'target_size': (64, 64), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5432558139534883, 'val_accuracy': 0.5092936802973977, 'time': 19.597716093063354, 'feature_dim': 8100}
+
+306. Val Acc: 50.93% | Train Acc: 55.81%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5581395348837209, 'val_accuracy': 0.5092936802973977, 'time': 27.555264234542847, 'feature_dim': 10800}
+
+307. Val Acc: 48.70% | Train Acc: 51.72%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5172093023255814, 'val_accuracy': 0.48698884758364314, 'time': 129.4458031654358, 'feature_dim': 48600}
+
+308. Val Acc: 48.33% | Train Acc: 52.09%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5209302325581395, 'val_accuracy': 0.483271375464684, 'time': 134.10067582130432, 'feature_dim': 48600}
+
+309. Val Acc: 47.21% | Train Acc: 50.14%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.5013953488372093, 'val_accuracy': 0.4721189591078067, 'time': 208.2467942237854, 'feature_dim': 72900}
+
+310. Val Acc: 46.84% | Train Acc: 49.67%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4967441860465116, 'val_accuracy': 0.4684014869888476, 'time': 59.53937649726868, 'feature_dim': 23064}
+
+311. Val Acc: 46.47% | Train Acc: 49.49%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4948837209302326, 'val_accuracy': 0.4646840148698885, 'time': 89.70497417449951, 'feature_dim': 34596}
+
+312. Val Acc: 45.72% | Train Acc: 48.19%
+   {'target_size': (128, 128), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.48186046511627906, 'val_accuracy': 0.45724907063197023, 'time': 57.95813870429993, 'feature_dim': 23064}
+
+313. Val Acc: 45.72% | Train Acc: 48.37%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.48372093023255813, 'val_accuracy': 0.45724907063197023, 'time': 294.2713267803192, 'feature_dim': 97200}
+
+314. Val Acc: 44.61% | Train Acc: 47.81%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (8, 8), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4781395348837209, 'val_accuracy': 0.44609665427509293, 'time': 124.88476157188416, 'feature_dim': 46128}
+
+315. Val Acc: 43.87% | Train Acc: 47.16%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.47162790697674417, 'val_accuracy': 0.43866171003717475, 'time': 201.33871054649353, 'feature_dim': 72900}
+
+316. Val Acc: 43.12% | Train Acc: 45.40%
+   {'target_size': (128, 128), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.45395348837209304, 'val_accuracy': 0.4312267657992565, 'time': 87.50205945968628, 'feature_dim': 34596}
+
+317. Val Acc: 42.38% | Train Acc: 44.09%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4409302325581395, 'val_accuracy': 0.42379182156133827, 'time': 276.25487756729126, 'feature_dim': 97200}
+
+318. Val Acc: 41.64% | Train Acc: 43.07%
+   {'target_size': (128, 128), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4306976744186046, 'val_accuracy': 0.4163568773234201, 'time': 123.10931921005249, 'feature_dim': 46128}
+
+319. Val Acc: 40.52% | Train Acc: 40.65%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.40651162790697676, 'val_accuracy': 0.4052044609665427, 'time': 275.1342191696167, 'feature_dim': 95256}
+
+320. Val Acc: 40.52% | Train Acc: 40.84%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.40837209302325583, 'val_accuracy': 0.4052044609665427, 'time': 423.065376996994, 'feature_dim': 142884}
+
+321. Val Acc: 39.78% | Train Acc: 39.91%
+   {'target_size': (256, 256), 'orientations': 6, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.39906976744186046, 'val_accuracy': 0.39776951672862454, 'time': 641.0168993473053, 'feature_dim': 207576}
+
+322. Val Acc: 39.78% | Train Acc: 40.28%
+   {'target_size': (256, 256), 'orientations': 9, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4027906976744186, 'val_accuracy': 0.39776951672862454, 'time': 995.8691275119781, 'feature_dim': 311364}
+
+323. Val Acc: 39.78% | Train Acc: 40.37%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (2, 2), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.4037209302325581, 'val_accuracy': 0.39776951672862454, 'time': 599.0767710208893, 'feature_dim': 190512}
+
+324. Val Acc: 38.66% | Train Acc: 39.26%
+   {'target_size': (256, 256), 'orientations': 12, 'pixels_per_cell': (4, 4), 'cells_per_block': (3, 3), 'kernel': 'rbf', 'C': 0.1, 'gamma': 'scale', 'train_accuracy': 0.3925581395348837, 'val_accuracy': 0.38661710037174724, 'time': 1311.6283419132233, 'feature_dim': 415152}
